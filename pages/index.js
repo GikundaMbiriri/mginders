@@ -10,7 +10,7 @@ export default function Home() {
  
   return (
 
-  <div>
+  <body>
   <Head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -18,15 +18,11 @@ export default function Home() {
         <meta content="Consulting Website Template Free Download" name="description"/>
     <title>Mgrinders site.</title>
     <link href="/favicon.ico" rel="icon"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet"/>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
-    <link href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css" rel="stylesheet"/>
+   
    
   </Head>
 {/* tool bar start */}
-<body>
+<div>
  
   <div className="top-bar d-none d-md-block">
             <div className="container-fluid">
@@ -64,7 +60,7 @@ export default function Home() {
         {/* nav bar start */}
         <div className="navbar navbar-expand-lg bg-dark navbar-dark">
             <div className="container-fluid">
-                <a href="index.html" className="navbar-brand">Confer</a>
+            <Link href="/home" ><a className="navbar-brand">Mgrinders</a></Link>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -72,7 +68,7 @@ export default function Home() {
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto">
                         <Link href="/" ><a className="nav-item nav-link active navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">Home</a></Link>
-                        <Link href="about.html" ><a className="nav-item nav-link">About</a></Link>
+                        <Link href="/about" ><a className="nav-item nav-link">About</a></Link>
                         <Link href="feature.html" ><a className="nav-item nav-link">Service</a></Link>
                         <Link href="index.html" ><a className="nav-item nav-link active">Feature</a></Link>
                         <Link href="advisor.html" ><a className="nav-item nav-link">Advisor</a></Link>
@@ -550,7 +546,7 @@ export default function Home() {
                             </div>
                             <div className="contact-text">
                                 <h3>Our Head Office</h3>
-                                <p>123 Street, New York, USA</p>
+                                <p>Kindaruma Road,Blue Violets Plaza One Three Three Three,Kileleshwa.</p>
                             </div>
                         </div>
                         <div className="contact-info">
@@ -559,7 +555,7 @@ export default function Home() {
                             </div>
                             <div className="contact-text">
                                 <h3>Call for Help</h3>
-                                <p>+012 345 6789</p>
+                                <p>+254713799975</p>
                             </div>
                         </div>
                         <div className="contact-info">
@@ -568,7 +564,7 @@ export default function Home() {
                             </div>
                             <div className="contact-text">
                                 <h3>Email for Information</h3>
-                                <p>info@example.com</p>
+                                <p>gikunda.dev@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -686,9 +682,10 @@ export default function Home() {
                             <div className="col-md-6">
                                 <div className="footer-contact">
                                     <h2>Our Head Office</h2>
-                                    <p><i className="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i className="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i className="fa fa-envelope"></i>info@example.com</p>
+                                  
+                                    <p><i className="fa fa-map-marker-alt"></i>Kindaruma Road,Blue Violets Plaza One Three Three Three,Kileleshwa.</p>
+                                    <p><i className="fa fa-phone-alt"></i>+254713799975</p>
+                                    <p><i className="fa fa-envelope"></i>gikunda.dev@gmail.com</p>
                                     <div className="footer-social">
                                         <a href=""><i className="fab fa-twitter"></i></a>
                                         <a href=""><i className="fab fa-facebook-f"></i></a>
@@ -727,30 +724,18 @@ export default function Home() {
             <div className="container copyright">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Mgrinders.com</a>, All Right Reserved.</p>
                     </div>
                     <div className="col-md-6">
-                        <p>Designed By <Link href="https://htmlcodex.com"><a >HTML Codex</a></Link> </p>
+                        <p>Designed By <Link href="mgrinders.com"><a >Mgrinders Web Designers</a></Link> </p>
                     </div>
                 </div>
             </div>
         </div>
       {/* FOOTER END */}
-      <Script src="https://code.jquery.com/jquery-3.4.1.min.js"/>
-        <Script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"/>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"/>
-        <Script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"/>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js"/>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"/>
-        
-   
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"/>
-        {/* <Script src="contact.js"/> */}
-
-
-        <Script src="/js/main.js"/>
-        </body>
-  </div>
+    
+        </div>
+  </body>
   
 
 )
