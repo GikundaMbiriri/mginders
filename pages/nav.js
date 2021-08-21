@@ -15,8 +15,10 @@ import about2 from '../public/blog-3.jpg';
 import ImageContainer from '../components/TextOnImage';
 import PersonIcon from '@material-ui/icons/Person';
 function Navbar() {
-var hhh=window.innerHeight>700?100:400;
-console.log(window.innerHeight);
+
+    var hhh=400;
+ 
+
     return (
         <>
         
