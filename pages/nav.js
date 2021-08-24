@@ -20,7 +20,7 @@ import aboutus from '../public/about.jpg'
 function Navbar() {
   useEffect(() => {
     AOS.init({
-      duration : 2000
+      duration : 1500
     });
   }, []);
   var hhh = 400;
@@ -29,10 +29,7 @@ function Navbar() {
   return (
     <>
 
-      <Head>
-      <Script src="https://kit.fontawesome.com/36f635d60e.js" crossorigin="anonymous"/>
-
-      </Head>
+    
       <div className="navh">
         <input type="checkbox" id="navh-check" />
         <div className="navh-header">
@@ -59,7 +56,7 @@ function Navbar() {
       <div className="test">
         <div className="beba" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2500">
           <h2>
             Your best Tech solution
           </h2>
@@ -92,10 +89,10 @@ function Navbar() {
       
         <PersonIcon className="hh" style={{ fontSize: 150 }} data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500"/>
+     data-aos-duration="1000"/>
         <div className="beb" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="1000">
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
             We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
@@ -105,7 +102,7 @@ function Navbar() {
         </div>
         <div className="dd" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="1000">
         <button className="xvv" type="button">
             Find Out More
           </button>
@@ -115,7 +112,9 @@ function Navbar() {
       <div className="about">
         
         <div className="hdiva">
-          <div className="dec">
+          <div className="dec" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <h2>About us.</h2>
             <p>
             Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
@@ -123,7 +122,10 @@ function Navbar() {
             Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
             </p>
           </div>
-          <Image src={aboutus} alt="what we do" className="im" width={500} height={hhh} />
+          <Image src={aboutus} alt="what we do" className="im" width={500} height={hhh}  data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1000" />
 
 
         </div>
