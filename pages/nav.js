@@ -90,8 +90,12 @@ function Navbar() {
       <div className="hbeba">
        
       
-        <PersonIcon className="hh" style={{ fontSize: 150 }}/>
-        <div className="beb">
+        <PersonIcon className="hh" style={{ fontSize: 150 }} data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"/>
+        <div className="beb" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
             We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
@@ -99,7 +103,9 @@ function Navbar() {
           </div>
 
         </div>
-        <div className="dd">
+        <div className="dd" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <button className="xvv" type="button">
             Find Out More
           </button>
