@@ -24,7 +24,7 @@ function Navbar() {
     <>
 
       <Head>
-
+      <Script src="https://kit.fontawesome.com/36f635d60e.js" crossorigin="anonymous"/>
 
       </Head>
       <div className="navh">
@@ -80,17 +80,19 @@ function Navbar() {
           </Carousel> */}
       </div>
       <div className="hbeba">
-        <PersonIcon className="hh" />
+       
+      
+        <PersonIcon className="hh" style={{ fontSize: 150 }}/>
         <div className="beb">
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
+            We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
 
           </div>
 
         </div>
         <div className="dd">
-          <button className="btn btn-success">
+        <button className="xvv" type="button">
             Find Out More
           </button>
         </div>

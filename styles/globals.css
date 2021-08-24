@@ -35,6 +35,19 @@ body {
   font-size: 25px;
   padding: 5px;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+.xvv {
+  background-color: rgba(99, 32, 112, 0.932);
+  color: #eee;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.ona {
+  color: #eee;
+  font-size: 70px;
 }
 .navh {
   height: 50px;
@@ -213,14 +226,16 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 .hh {
   color: #eee;
 }
 .beb h2 {
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 28px;
   color: #eee;
+  margin-bottom: 10px;
 }
 .hte {
   color: #eee;
