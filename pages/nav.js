@@ -12,6 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import about from '../public/about-1.jpg';
 import about1 from '../public/about-2.jpg';
+import ec from '../public/ec.jpg'
 import about2 from '../public/blog-3.jpg';
 import ImageContainer from '../components/TextOnImage';
 import PersonIcon from '@material-ui/icons/Person';
@@ -92,7 +93,7 @@ function Navbar() {
      data-aos-duration="1000"/>
         <div className="beb" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000">
+     data-aos-duration="800">
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
             We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
@@ -102,7 +103,7 @@ function Navbar() {
         </div>
         <div className="dd" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000">
+     data-aos-duration="500">
         <button className="xvv" type="button">
             Find Out More
           </button>
@@ -114,6 +115,7 @@ function Navbar() {
         <div className="hdiva">
           <div className="dec" data-aos="fade-right"
      data-aos-offset="300"
+     data-aos-duration="800"
      data-aos-easing="ease-in-sine">
             <h2>About us.</h2>
             <p>
@@ -134,7 +136,7 @@ function Navbar() {
         <div className="hind">Services We Offer</div>
         <div className="hdiv">
 
-          <Image src={about1} alt="what we do" className="ime" width={500} height={hhh} />
+          <Image src={ec} alt="what we do" className="ime" width={500} height={hhh} />
 
           <div className="desc">
             <h2>Electrical Installation.</h2>
