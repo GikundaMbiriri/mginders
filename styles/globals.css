@@ -189,8 +189,7 @@ p {
 .test {
   height: 70vh;
   width: 100vw;
-  background: linear-gradient(rgba(127, 20, 189, 0.45), rgba(62, 29, 209, 0.45)),
-    url(../public/banner.jpg);
+  background: url(../public/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
