@@ -191,8 +191,8 @@ p {
   width: 100vw;
   background: linear-gradient(
       0deg,
-      rgba(88, 79, 84, 0.342),
-      rgba(170, 29, 128, 0.664)
+      rgba(131, 20, 116, 0.342),
+      rgba(211, 27, 211, 0.664)
     ),
     url(../public/banner.jpg);
   background-repeat: no-repeat;
