@@ -1,10 +1,11 @@
 
 import Head from 'next/head'
-
+import  { useEffect } from "react";
 import Image from 'next/image'
 import jj from '../public/blog-1.jpg'
 import 'bootstrap/dist/css/bootstrap.css'
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 import Link from 'next/link'
 import Script from 'next/script'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -15,8 +16,13 @@ import about2 from '../public/blog-3.jpg';
 import ImageContainer from '../components/TextOnImage';
 import PersonIcon from '@material-ui/icons/Person';
 import pic from '../public/business-man.png';
+import aboutus from '../public/about.jpg'
 function Navbar() {
-
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
   var hhh = 400;
 
 
@@ -51,7 +57,9 @@ function Navbar() {
         </div>
       </div>
       <div className="test">
-        <div className="beba">
+        <div className="beba" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <h2>
             Your best Tech solution
           </h2>
@@ -99,14 +107,17 @@ function Navbar() {
       </div>
 
       <div className="about">
-        <div className="hind">About Us</div>
-        <div className="hdiv">
+        
+        <div className="hdiva">
           <div className="dec">
-            <h2>Electrical Installation.</h2>
+            <h2>About us.</h2>
+            <p>
             Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-
+            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
+            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
+            </p>
           </div>
-          <Image src={about1} alt="what we do" className="im" width={500} height={hhh} />
+          <Image src={aboutus} alt="what we do" className="im" width={500} height={hhh} />
 
 
         </div>
@@ -115,7 +126,7 @@ function Navbar() {
         <div className="hind">Services We Offer</div>
         <div className="hdiv">
 
-          <Image src={about1} alt="what we do" className="im" width={500} height={hhh} />
+          <Image src={about1} alt="what we do" className="ime" width={500} height={hhh} />
 
           <div className="desc">
             <h2>Electrical Installation.</h2>

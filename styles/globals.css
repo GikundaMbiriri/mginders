@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap");
 /* div .test {
   height: 100vh;
   width: 100vw;
@@ -250,13 +251,36 @@ p {
   padding-top: 80px;
 }
 .hind {
+  padding: 10px;
   text-align: center;
+  font-size: 25px;
+  font-family: "Patrick Hand", cursive;
 }
 .hdiv {
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
   justify-content: space-around;
+}
+.hdiva {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eee;
+  width: 100vw;
+  justify-content: space-around;
+}
+.hdiva .dec h2 {
+  text-align: center;
+}
+.dec p {
+  font-size: 20px;
+}
+.ime {
+  /* width: 40vw !important;
+  height: 300px !important; */
+  margin-top: 10px;
+  object-fit: cover;
 }
 .im {
   /* width: 40vw !important;
