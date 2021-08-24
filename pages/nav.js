@@ -53,15 +53,16 @@ function Navbar() {
       <div className="test">
         <div className="beba">
           <h2>
-            Your best Tech solution.
+            Your best Tech solution
           </h2>
           <div className="hrule">
 
           </div>
           <div className="htext">
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
+            We are MGrinders Technologies!We design ,develop and install amazing tech solutions.
+            We also train and mentor passionate Tech Enthusiasts.
           </div>
-          <button className="btn btn-success">
+          <button className="xv" type="button">
             Find Out More
           </button>
 
