@@ -10,12 +10,15 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Ban from '../components/Ban';
 import Services from '../components/Services'
+
 function services() {
     return (
         <>
         <Nav/>
         <Ban/>
         <Services/>
+        <Contact/>
+        <Footer/>
         </>
        
     )
