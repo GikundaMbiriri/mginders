@@ -405,6 +405,7 @@ footer hr {
   .navh > .navh-btn > label:hover,
   .navh #navh-check:checked ~ .navh-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
   }
   .navh > .navh-btn > label > span {
     display: block;
@@ -416,6 +417,7 @@ footer hr {
     position: absolute;
     display: block;
     width: 100%;
+    z-index: 1;
     background-color: #333;
     height: 0px;
     transition: all 0.3s ease-in;
