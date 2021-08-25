@@ -18,6 +18,7 @@ import ImageContainer from '../components/TextOnImage';
 import PersonIcon from '@material-ui/icons/Person';
 import pic from '../public/business-man.png';
 import aboutus from '../public/about.jpg'
+import app from '../public/app.jpg'
 function Navbar() {
   useEffect(() => {
     AOS.init({
@@ -140,6 +141,16 @@ function Navbar() {
 
           <div className="desc">
             <h2>Electrical Installation.</h2>
+            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
+
+          </div>
+        </div>
+        <div className="hdiv">
+
+          <Image src={app} alt="what we do" className="ime" width={500} height={hhh} />
+
+          <div className="desc">
+            <h2>Web And Mobile Development.</h2>
             Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
 
           </div>
