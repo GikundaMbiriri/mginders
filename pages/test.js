@@ -16,7 +16,7 @@ export default function test() {
     return (
     <div className="test">
        
-         <Carousel autoPlay={true} axis='vertical' autoFocus={true} centerMode={true} infiniteLoop={true} transitionTime={5000}>
+         <Carousel autoPlay={true} axis='horizontal' autoFocus={true} centerMode={true} infiniteLoop={true} transitionTime={5000}>
                 {images.map((em)=>(
  <div className="tes" key={em.id}>
      <ImageContainer em={em.name}/>
