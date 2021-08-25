@@ -54,6 +54,12 @@
   .tt {
     width: 90vw;
   }
+  .fname {
+    margin-right: 0px;
+  }
+  input .btn {
+    width: 150px;
+  }
   .cont {
     padding: 5px;
   }
