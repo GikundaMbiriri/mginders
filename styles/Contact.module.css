@@ -1,0 +1,57 @@
+.contact {
+  background-color: blueviolet;
+  color: #eee;
+}
+.contact h2 {
+  text-align: center;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px;
+}
+.cont input {
+  margin-bottom: 15px;
+}
+
+.fname {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  margin-right: 60px;
+}
+.lname {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+}
+.con {
+  width: 460px;
+  height: 30px;
+  font-size: 16px;
+}
+.tt {
+  width: 460px;
+  font-size: 16px;
+}
+.btn {
+  background-color: #eee;
+  color: blueviolet;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: #eee;
+}
+@media (max-width: 600px) {
+  .fname .lname .con .tt {
+    width: 90vw;
+  }
+  .cont {
+    padding: 5px;
+  }
+}
