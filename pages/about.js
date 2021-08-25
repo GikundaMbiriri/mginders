@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import About from '../components/About';
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 export default function about() {
     const im ='../public/about3.png';
     return (
@@ -22,6 +23,7 @@ export default function about() {
 <Banner im="kk"/>
       <About/>
       <Contact/>
+      <Footer/>
        </>
     )
 }

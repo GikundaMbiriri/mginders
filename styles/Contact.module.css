@@ -47,8 +47,11 @@
   background-color: burlywood;
   color: #eee;
 }
-@media (max-width: 600px) {
-  .fname .lname .con .tt {
+@media only screen and (max-width: 800px) {
+  .right input {
+    width: 90vw;
+  }
+  .tt {
     width: 90vw;
   }
   .cont {
