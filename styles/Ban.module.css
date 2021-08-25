@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+.kk {
+  height: 40vh;
+  width: 100vw;
+  background: linear-gradient(
+      rgba(235, 231, 245, 0.45),
+      rgba(21, 44, 146, 0.603)
+    ),
+    url(../public/about4.jpg);
+  padding-top: 30px;
+}
+.spacer {
+  height: 100px;
+}
+.text {
+  padding: 20px;
+
+  width: 200px;
+
+  margin: auto;
+}
+.text h2 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 30px;
+  color: #eee;
+}

@@ -1,5 +1,5 @@
 
-
+import Link from 'next/link'
 function Nav() {
     return (
  
@@ -19,10 +19,22 @@ function Nav() {
         </div>
 
         <div className="navh-links">
-          <a href="//github.io/jo_geek" >Home</a>
-          <a href="http://stackoverflow.com/users/4084003/" >About</a>
-          <a href="https://in.linkedin.com/in/jonesvinothjoseph" >Services</a>
-          <a href="https://codepen.io/jo_Geek/" >Contact</a>
+        <Link href="/home">
+          <a>Home</a>
+        </Link>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/services">
+          <a>Services</a>
+        </Link>
+        <Link href="/home">
+          <a>Classes</a>
+        </Link>
+        <Link href="/home">
+          <a>Contact</a>
+        </Link>
+         
           
         </div>
       </div> 

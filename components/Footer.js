@@ -5,7 +5,7 @@ function Footer() {
         
             <div className="footer">
         <div className="heading">
-          <h2>ABCDEF<sup>&trade;</sup></h2>
+          <h2>MGrinders<sup>&trade;</sup></h2>
         </div>
         <div className="content">
           <div className="services">
@@ -49,9 +49,9 @@ function Footer() {
               Building:Blue Violets Plaza One Three Three Three
             </p>
             <h4 className="mobile">Mobile</h4>
-            <p><a href="#">+9112233445</a></p>
+            <p><a href="#">0713799975</a></p>
             <h4 className="mail">Email</h4>
-            <p><a href="#">abcdef@gmail.com</a></p>
+            <p><a href="#">gikunda.dev@gmail.com</a></p>
           </div>
         </div>
         <footer>
