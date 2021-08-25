@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div>
+        
             <div className="footer">
         <div className="heading">
           <h2>ABCDEF<sup>&trade;</sup></h2>
@@ -59,7 +59,7 @@ function Footer() {
           &copy; 2021 MGrinders Technologies Pvt. Ltd.
         </footer>
       </div> 
-        </div>
+    
     )
 }
 
