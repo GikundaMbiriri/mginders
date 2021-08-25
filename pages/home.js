@@ -23,6 +23,7 @@ import iot from '../public/iot.jpg'
 import teach from '../public/teach.png'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer';
+import Contact from '../components/Contact'
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -176,7 +177,7 @@ function Home() {
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
-       
+       <Contact/>
      <Footer/>
 
      
