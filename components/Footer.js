@@ -1,66 +1,61 @@
 import Link from 'next/link'
-
+import 'bootstrap/dist/css/bootstrap.css'
+import styles from '../styles/Footer.module.css'
 function Footer() {
     return (
         
-            <div className="footer">
-        <div className="heading">
-          <h2>MGrinders<sup>&trade;</sup></h2>
-        </div>
-        <div className="content">
-          {/* <div className="services">
-            <h4>Services</h4>
-            <p><a href="#">Mobile App development</a></p>
-            <p><a href="#">Web development</a></p>
-            <p><a href="#">IOT projects</a></p>
-      
-            <p><a href="#">Electrical installation</a></p>
-            <p><a href="#">Coding classes</a></p>
-          </div> */}
-          {/* <div className="social-media">
-            <h4>Social</h4>
-            <p>
-              <a href="https://www.linkedin.com/in/sanket-bodke-995b5b205/"
-              ><i className="fab fa-linkedin"></i> Linkedin</a
-              >
-            </p>
-            <p>
-              <a href="https://twitter.com/Sanket46171296"
-              ><i className="fab fa-twitter"></i> Twitter</a
-              >
-            </p>
-          
-           
-           
-          </div> */}
-          {/* <div className="links">
-            <h4>Quick links</h4>
-            <p><Link href="/home"><a >Home</a></Link></p>
-            <p><Link href="/about"><a >About</a></Link></p>
-            <p><Link href="/services"><a >Services</a></Link></p>
-            <p><Link href="/home"><a >Classes</a></Link></p>
-            <p><Link href="/home"><a >Contact</a></Link></p>
-       
-          </div> */}
-          <div className="details">
-            <h4 className="address">Address</h4>
-            <p>
-              <span className="ww">Locality</span> :Kileleshwa <br />
-              <span className="ww">Street</span>:Kindaruma road<br/>
+      <div className={styles.sitefooter}>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p className="text-justify">MGrinders <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
 
-              <span className="ww">Building</span>:Blue Violets Plaza One Three Three Three
-            </p>
-            <h4 className="mobile">Mobile</h4>
-            <p><a href="#">0713799975</a></p>
-            <h4 className="mail">Email</h4>
-            <p><a href="#">gikunda.dev@gmail.com</a></p>
+          <div className="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul className={styles.footerlinks}>
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div className="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul className={styles.footerlinks}>
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
           </div>
         </div>
-        <footer>
-          <hr />
-          &copy; 2021 MGrinders Technologies Pvt. Ltd.
-        </footer>
-      </div> 
+        <hr/>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 col-sm-6 col-xs-12">
+            <p className={styles.copyrighttext}>Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">MGrinders</a>.
+            </p>
+          </div>
+
+          <div className="col-md-4 col-sm-6 col-xs-12">
+            <ul className={styles.socialicons}>
+              <li><a className={styles.facebook} href="#"><i className="fa fa-facebook"></i></a></li>
+              <li><a className= {styles.twitter}  href="#"><i className="fa fa-twitter"></i></a></li>
+              <li><a className= {styles.dribbble}  href="#"><i className="fa fa-dribbble"></i></a></li>
+              <li><a className= {styles.linkedin}  href="#"><i className="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</div>
     
     )
 }
