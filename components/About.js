@@ -16,16 +16,12 @@ function About() {
          <div className={styles.about}>
              <h2 data-aos="zoom-out-left">Company Profile</h2>
              <div className={styles.bebaa}>
-             <div className={styles.te} data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+             <div className={styles.te} >
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
              </div>
-             <Image src={im} alt="about image" height={hhh} width={500} data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"/>
+             <Image src={im} alt="about image" height={hhh} width={500} />
              </div>
 <div className={styles.mission} data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
