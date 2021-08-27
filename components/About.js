@@ -14,7 +14,7 @@ function About() {
     return (
         <>
          <div className={styles.about}>
-             <h2 data-aos="zoom-out-left">Company Profile</h2>
+             <h2 >Company Profile</h2>
              <div className={styles.bebaa}>
              <div className={styles.te} >
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
