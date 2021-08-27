@@ -1,14 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 .about {
   background-color: #eee;
-  height: 100vh;
+
   padding: 20px;
 }
 .about h2 {
   text-align: center;
   padding-bottom: 10px;
+  color: rgb(174, 43, 226);
+  font-size: 30px;
+}
+.te {
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  width: 40vw;
+}
+.bebaa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mission h2 {
+  color: #eee;
 }
 .mission {
-  background-color: white;
+  background: linear-gradient(rgba(37, 37, 37, 0.45), rgba(27, 27, 27, 0.603)),
+    url(../public/about4.jpg);
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #eee;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 800px) {
+  .te {
+    width: 100vw;
+  }
 }

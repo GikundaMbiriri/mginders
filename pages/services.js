@@ -17,7 +17,7 @@ function services() {
         <Nav/>
         <Ban/>
         <Services/>
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
         </>
        

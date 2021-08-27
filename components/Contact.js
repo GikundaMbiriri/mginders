@@ -27,7 +27,7 @@ function Contact() {
 <textarea rows="4" cols="50" defaultValue="Say something..." className={styles.tt}>
 
 </textarea><br/>
-<input type="submit"  className={styles.btn} />
+{/* <button  className={styles.btn} >Submit</button> */}
 
                 </div>
             </div>

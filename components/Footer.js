@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link'
 
 function Footer() {
     return (
@@ -8,7 +8,7 @@ function Footer() {
           <h2>MGrinders<sup>&trade;</sup></h2>
         </div>
         <div className="content">
-          <div className="services">
+          {/* <div className="services">
             <h4>Services</h4>
             <p><a href="#">Mobile App development</a></p>
             <p><a href="#">Web development</a></p>
@@ -16,8 +16,8 @@ function Footer() {
       
             <p><a href="#">Electrical installation</a></p>
             <p><a href="#">Coding classes</a></p>
-          </div>
-          <div className="social-media">
+          </div> */}
+          {/* <div className="social-media">
             <h4>Social</h4>
             <p>
               <a href="https://www.linkedin.com/in/sanket-bodke-995b5b205/"
@@ -32,21 +32,23 @@ function Footer() {
           
            
            
-          </div>
-          <div className="links">
+          </div> */}
+          {/* <div className="links">
             <h4>Quick links</h4>
-            <p><a href="#">Home</a></p>
-            <p><a href="#">About</a></p>
-            <p><a href="#">Services</a></p>
-            <p><a href="#">Contact</a></p>
-          </div>
+            <p><Link href="/home"><a >Home</a></Link></p>
+            <p><Link href="/about"><a >About</a></Link></p>
+            <p><Link href="/services"><a >Services</a></Link></p>
+            <p><Link href="/home"><a >Classes</a></Link></p>
+            <p><Link href="/home"><a >Contact</a></Link></p>
+       
+          </div> */}
           <div className="details">
             <h4 className="address">Address</h4>
             <p>
-              Locality :Kileleshwa <br />
-              Street:Kindaruma road<br/>
+              <span className="ww">Locality</span> :Kileleshwa <br />
+              <span className="ww">Street</span>:Kindaruma road<br/>
 
-              Building:Blue Violets Plaza One Three Three Three
+              <span className="ww">Building</span>:Blue Violets Plaza One Three Three Three
             </p>
             <h4 className="mobile">Mobile</h4>
             <p><a href="#">0713799975</a></p>

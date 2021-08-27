@@ -5,6 +5,10 @@
 .contact h2 {
   text-align: center;
 }
+.right input {
+  border-radius: 5px;
+  border-color: antiquewhite;
+}
 .cont {
   display: flex;
   flex-wrap: wrap;
@@ -35,9 +39,12 @@
   width: 460px;
   font-size: 16px;
 }
+.left {
+  padding: 20px;
+}
 .btn {
-  background-color: #eee;
-  color: blueviolet;
+  background-color: rgb(195, 43, 226);
+  color: #eee;
   padding: 10px;
   width: 150px;
   cursor: pointer;
@@ -66,5 +73,8 @@
   }
   .cont {
     padding: 5px;
+  }
+  .btn {
+    width: 150px;
   }
 }

@@ -1,23 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap");
 .kk {
   height: 40vh;
   width: 100vw;
   background: linear-gradient(
-      rgba(235, 231, 245, 0.45),
-      rgba(21, 44, 146, 0.603)
+      rgba(159, 17, 172, 0.45),
+      rgba(157, 8, 170, 0.603)
     ),
     url(../public/about4.jpg);
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .spacer {
-  height: 100px;
+  height: 5px;
 }
 .text {
   padding: 20px;
 
-  width: 200px;
-
-  margin: auto;
+  text-align: center;
+}
+.inf {
+  color: #eee;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 20px;
+  padding: 10px;
 }
 .text h2 {
   font-family: "Merriweather", serif;

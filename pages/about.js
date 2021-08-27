@@ -9,7 +9,15 @@ import Script from 'next/script'
 import About from '../components/About';
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-export default function about() {
+import  { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+function About1() {
+    useEffect(() => {
+        AOS.init({
+          duration : 1500
+        });
+      }, []);
     const im ='../public/about3.png';
     return (
         <>
@@ -22,8 +30,9 @@ export default function about() {
 
 <Banner im="kk"/>
       <About/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/>
        </>
     )
 }
+export default About1;
