@@ -10,6 +10,7 @@ function About() {
           duration : 1500
         });
       }, []);
+      var hhh=400;
     return (
         <>
          <div className={styles.about}>
@@ -22,7 +23,7 @@ function About() {
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
              MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
              </div>
-             <Image src={im} alt="about image" height={400} width={500} data-aos="flip-left"
+             <Image src={im} alt="about image" height={hhh} width={500} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"/>
              </div>
