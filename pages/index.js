@@ -25,6 +25,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer';
 import Contact from '../components/Contact'
 import Services from '../components/Services'
+import Testimonial from '../components/Testimonial'
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -118,20 +119,8 @@ function Home() {
         </div>
       </div>
      <Services/>
-      <Carousel>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+
+      <Testimonial/>
        {/* <Contact/> */}
      <Footer/>
 
