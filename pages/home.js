@@ -97,10 +97,7 @@ function Home() {
       <div className="about">
         
         <div className="hdiva">
-          <div className="dec" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine">
+          <div className="dec" >
             <h2>About us.</h2>
             <p>
             Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
