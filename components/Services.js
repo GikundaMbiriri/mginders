@@ -8,7 +8,7 @@ function Services() {
     var hhh = 400;
     return (
         <div className="industry">
-        <div className="hind">Services We Offer</div>
+        <div className="hind"><h2>Services We Offer</h2></div>
         <div className="hdiv">
 
           

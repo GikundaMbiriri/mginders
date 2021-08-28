@@ -7,9 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Link from 'next/link'
-import Script from 'next/script'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 import about from '../public/about-1.jpg';
 import about1 from '../public/about-2.jpg';
 import ec from '../public/ec.jpg'
@@ -25,6 +23,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer';
 import Contact from '../components/Contact'
 import Services from '../components/Services'
+import Testimonial from '../components/Testimonial';
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -118,20 +117,7 @@ function Home() {
         </div>
       </div>
      <Services/>
-      <Carousel>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <Image src={teach} alt="d,d,," />
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+     <Testimonial/>
        <Contact/>
      <Footer/>
 
