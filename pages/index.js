@@ -26,6 +26,7 @@ import Footer from '../components/Footer';
 import Contact from '../components/Contact'
 import Services from '../components/Services'
 import Testimonial from '../components/Testimonial'
+import About from '@/components/About';
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -98,22 +99,7 @@ function Home() {
 
       <div className="about">
         
-        <div className="hdiva">
-          <div className="dec" >
-            <h2>About us.</h2>
-            <p>
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            </p>
-          </div>
-          <Image src={aboutus} alt="what we do" className="im" width={500} height={hhh}  data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1000" />
-
-
-        </div>
+       <About/>
       </div>
      <Services/>
 

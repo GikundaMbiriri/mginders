@@ -13,7 +13,7 @@ function Footer() {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <h6>Our Mission</h6>
-            <p className="text-justify">MGrinders <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <p className="text-justify">Our mission is to make the world a better place by creating reliable tech solutions to the problems that are in our society.We also aim at raising more tech talent by training passionate learners into tech.</p>
           </div>
 
           <div className="col-xs-6 col-md-3">

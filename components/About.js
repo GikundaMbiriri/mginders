@@ -17,9 +17,11 @@ function About() {
              <h2>About Us</h2>
              <div className={styles.bebaa}>
              <div className={styles.te} >
-             MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
-             MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
-             MGrinders Technologies was formed in August 2021 to take advantage of increasing opportunities in the Information Communication Technology (ICT) industry.
+            MGrinders limited is a tech company that designs and develops tech solutions for its clients.We develop competitive web and mobile applications that meet the requirements of the market.
+            <br/>
+            We also create management systems for institutions ,companies and organisations.
+            <br/>
+            You can also attend our coding classes that equip you with the best and most competitive skills in the market
              </div>
              <Image src={im} alt="about image" height={hhh} width={500} />
              </div>

@@ -10,7 +10,7 @@ function Testimonial() {
     return (
        <>
        <h2 className={styles.hh}>Testimonials</h2>
-             <Carousel autoPlay={true} infiniteLoop={true} interval={2500}>
+             <Carousel autoPlay={true} infiniteLoop={true} interval={2500} showThumbs={false}>
                
                 <div className={styles.cc}>
 

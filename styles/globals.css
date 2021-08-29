@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /* div .test {
   height: 100vh;
   width: 100vw;
@@ -211,7 +212,7 @@ p {
 .htext {
   color: #eee;
   font-size: 20px;
-  font-family: 'Kaisei Tokumin', serif;
+  font-family: "Kaisei Tokumin", serif;
 }
 .hrule {
   height: 5px;
@@ -250,10 +251,9 @@ p {
 
 .hind h2 {
   color: rgb(56, 8, 100);
+  font-size: 30px;
   padding: 10px;
   text-align: center;
-  font-size: 25px;
-  font-family: "Patrick Hand", cursive;
 }
 .hdiv {
   display: flex;
@@ -289,6 +289,13 @@ p {
 }
 .desc {
   width: 40vw;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.desc span {
+  font-size: 18px;
+  font-weight: 500;
 }
 .dec {
   width: 40vw;
