@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../styles/cont.modules.css'
 function cont() {
     return (
         <div>
