@@ -1,0 +1,56 @@
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 h2 {
+  font-size: 22px;
+}
+.industry {
+  background-color: #eee;
+  padding-top: 20px;
+}
+.ic {
+  color: rgb(56, 8, 100);
+}
+.hind h2 {
+  color: rgb(56, 8, 100);
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.hdiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+.desc {
+  width: 40vw;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.desc span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.ime {
+  /* width: 40vw !important;
+    height: 300px !important; */
+  margin-top: 10px;
+  object-fit: cover;
+}
+@media (max-width: 700px) {
+  .desc {
+    width: 90vw;
+  }
+  .hdiv {
+    width: 90vw;
+    margin-left: 5px;
+  }
+}

@@ -246,24 +246,7 @@ p {
 .dd {
   width: 300px;
 }
-.industry {
-  background-color: #eee;
-  padding-top: 20px;
-}
 
-.hind h2 {
-  color: rgb(56, 8, 100);
-  font-size: 30px;
-  padding: 10px;
-  text-align: center;
-}
-.hdiv {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  justify-content: space-around;
-  padding: 20px;
-}
 .hdiva {
   padding: 10px;
   display: flex;
@@ -278,12 +261,7 @@ p {
 .dec p {
   font-size: 20px;
 }
-.ime {
-  /* width: 40vw !important;
-  height: 300px !important; */
-  margin-top: 10px;
-  object-fit: cover;
-}
+
 .ty {
   width: 100vw;
 }
@@ -292,16 +270,7 @@ p {
   height: 300px !important; */
   object-fit: cover;
 }
-.desc {
-  width: 40vw;
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-.desc span {
-  font-size: 18px;
-  font-weight: 500;
-}
+
 .dec {
   width: 40vw;
   height: auto;
@@ -474,9 +443,7 @@ footer hr {
   .dd {
     width: 90vw;
   }
-  .desc {
-    width: 90vw;
-  }
+
   .dec {
     width: 90vw;
   }
