@@ -7,7 +7,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Link from 'next/link'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import about from '../public/about-1.jpg';
 import about1 from '../public/about-2.jpg';
 import ec from '../public/ec.jpg'
@@ -24,6 +25,10 @@ import Footer from '../components/Footer';
 import Contact from '../components/Contact'
 import Services from '../components/Services'
 import Testimonial from '../components/Testimonial';
+import Slider from "react-slick";
+import Cont from '../components/Cont';
+import Tt from '../components/Tt';
+
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -31,14 +36,15 @@ function Home() {
     });
   }, []);
   var hhh = 400;
-
+ 
 
   return (
     <>
 
     
     <Nav/>
-      <div className="test">
+   <div >
+   <div className="test">
         <div className="beba" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2500">
@@ -58,17 +64,10 @@ function Home() {
 
         </div>
 
-        {/* <Carousel autoPlay={true} axis='vertical' autoFocus={true} centerMode={true} infiniteLoop={true} transitionTime={5000}>
-              {images.map((em)=>(
-<div className="tes" key={em.id}>
-   <ImageContainer em={em.name}/>
 
-</div>
-              ))}
-             
-            
-          </Carousel> */}
-      </div>
+
+      </div> 
+        </div>
       <div className="hbeba">
        
       
@@ -115,7 +114,8 @@ function Home() {
       </div>
      <Services/>
      <Testimonial/>
-       <Contact/>
+       <Cont/>
+     
      <Footer/>
 
      

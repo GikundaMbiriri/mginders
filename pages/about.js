@@ -12,6 +12,7 @@ import Footer from '../components/Footer'
 import  { useEffect } from "react";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import Cont from '../components/Cont';
 function About1() {
     useEffect(() => {
         AOS.init({
@@ -31,6 +32,7 @@ function About1() {
 <Banner im="kk"/>
       <About/>
       {/* <Contact/> */}
+      <Cont/>
       <Footer/>
        </>
     )

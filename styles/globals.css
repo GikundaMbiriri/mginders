@@ -40,6 +40,7 @@
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .xvv {
   background-color: rgba(99, 32, 112, 0.932);
   color: #eee;
@@ -281,6 +282,9 @@ p {
   height: 300px !important; */
   margin-top: 10px;
   object-fit: cover;
+}
+.ty {
+  width: 100vw;
 }
 .im {
   /* width: 40vw !important;
