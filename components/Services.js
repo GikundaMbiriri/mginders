@@ -6,6 +6,9 @@ import Image from 'next/image'
 import webdesign from 'public/webdesign.jpg'
 import webapps from 'public/ap.jpg'
 import learn from 'public/learn.jpg'
+import daro from 'public/daro.jpg'
+import mobi from 'public/mobi.jpg'
+
 function Services() {
     var hhh = 400;
     return (
@@ -33,7 +36,7 @@ function Services() {
             We develop user-friendly applications for institutions,organisations ,ecommerce enterprises etc at affordable prices.<br/>
             Our applications come with secure admin dashboards to help the owners manage their businesses easily.
           </div>
-          <Image src={webapps} alt="what we do" className="ime" width={500} height={hhh} />
+          <Image src={mobi} alt="what we do" className="ime" width={500} height={hhh} />
         </div>
         <div className="hdiv">
 
@@ -65,7 +68,7 @@ We run programming classes both physically and online .Currently ,we are offerin
 <span>IOT:</span><br/>Arduino,Raspberry PI
 
           </div>
-          <Image src={learn} alt="what we do" className="ime" width={500} height={hhh} />
+          <Image src={daro} alt="what we do" className="ime" width={500} height={hhh} />
         </div>
       </div>
     )

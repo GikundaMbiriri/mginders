@@ -75,12 +75,8 @@ function Home() {
       <div className="hbeba">
        
       
-        <PersonIcon className="hh" style={{ fontSize: 150 }} data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000"/>
-        <div className="beb" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="800">
+        <PersonIcon className="hh" style={{ fontSize: 150 }} />
+        <div className="beb" >
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
             We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,

@@ -15,7 +15,8 @@ function Testimonial() {
                 <div className={styles.cc}>
 
                     <Image src={teach} alt="d,d,," className={styles.teach} height={100} width={100}/>
-<h4>Lecturer-Moi University</h4>
+<h4>Mr. Owori</h4>
+
                    <div className={styles.tt}>
                    I really enjoyed the services I got from here.I will definitely come back.
                 </div>
@@ -24,7 +25,8 @@ function Testimonial() {
                 <div className={styles.cc}>
 
                     <Image src={teach} alt="d,d,," className={styles.teach} height={100} width={100}/>
-<h4>Lecturer-Moi University</h4>
+                    <h4>Mr. Owori</h4>
+
                    <div className={styles.tt}>
                     I really enjoyed the services I got from here.I will definitely come back.
                 </div>
@@ -33,7 +35,9 @@ function Testimonial() {
                 <div className={styles.cc}>
 
                     <Image src={teach} alt="d,d,," className={styles.teach} height={100} width={100}/>
-<h4>Lecturer-Moi University</h4>
+                    
+                    <h4>Mr. Owori</h4>
+
                    <div className={styles.tt}>
           I really enjoyed the services I got from here.I will definitely come back.
                 </div>

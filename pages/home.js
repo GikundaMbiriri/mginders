@@ -26,7 +26,7 @@ import Contact from '../components/Contact'
 import Services from '../components/Services'
 import Testimonial from '../components/Testimonial';
 import Slider from "react-slick";
-import Cont from '../components/Cont';
+import About from '../components/About';
 import Tt from '../components/Tt';
 
 function Home() {
@@ -58,10 +58,11 @@ function Home() {
             We are MGrinders Technologies!We design ,develop and install amazing tech solutions.
             We also train and mentor passionate Tech Enthusiasts.
           </div>
+          <Link href="/about"><a>
           <button className="xv" type="button">
             Find Out More
           </button>
-
+</a></Link>
         </div>
 
 
@@ -71,12 +72,8 @@ function Home() {
       <div className="hbeba">
        
       
-        <PersonIcon className="hh" style={{ fontSize: 150 }} data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000"/>
-        <div className="beb" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="800">
+        <PersonIcon className="hh" style={{ fontSize: 150 }} />
+        <div className="beb" >
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
             We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
@@ -95,26 +92,11 @@ function Home() {
 
       <div className="about">
         
-        <div className="hdiva">
-          <div className="dec" >
-            <h2>About us.</h2>
-            <p>
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            Lorem id dkfk best way to trennr in a company setup so that we acquire the best in thios world of programming that we make it till the end.
-            </p>
-          </div>
-          <Image src={aboutus} alt="what we do" className="im" width={500} height={hhh}  data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1000" />
-
-
-        </div>
+      <About/>
       </div>
      <Services/>
      <Testimonial/>
-       <Cont/>
+       
      
      <Footer/>
 
