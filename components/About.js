@@ -25,7 +25,7 @@ function About() {
             <br/>
             You can also attend our coding classes that equip you with the best and most competitive skills in the market
              </div>
-             <Image src={ob} alt="about image" height={hhh} width={500} />
+             <Image src={ob} alt="about image" height={hhh} width={500} className={styles.sa} />
              </div>
 {/* <div className={styles.mission} data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
