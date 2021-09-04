@@ -2,6 +2,7 @@ import app from '../public/app.jpg'
 import iot from '../public/iot.jpg'
 import teach from '../public/teach.png'
 import dd from '../public/dd.jpg'
+import  { useEffect } from "react";
 import Image from 'next/image'
 import webdesign from 'public/webdesign.jpg'
 import webapps from 'public/ap.jpg'
@@ -13,12 +14,19 @@ import WebIcon from '@material-ui/icons/Web';
 import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt';
 import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function Services() {
+  useEffect(() => {
+    AOS.init({
+      duration : 1500
+    });
+  }, []);
     var hhh = 400;
     return (
         <div className={styles.industry}>
         <div className={styles.hind}><h2>Services We Offer</h2></div>
-        <div className={styles.hdiv}>
+        <div className={styles.hdiv}  data-aos="fade-up-left">
 
           
 

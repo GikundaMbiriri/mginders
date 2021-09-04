@@ -31,7 +31,7 @@ import Typed from "react-typed";
 function Home() {
   useEffect(() => {
     AOS.init({
-      duration : 1500
+      duration : 1000
     });
   }, []);
   var hhh = 400;
@@ -93,8 +93,8 @@ function Home() {
       
         <PersonIcon className="hh" style={{ fontSize: 150 }} />
         <div className="beb" >
-          <h2>Satisfaction Guaranteed</h2>
-          <div className="hte">
+          <h2 data-aos="fade-down">Satisfaction Guaranteed</h2>
+          <div className="hte" data-aos="fade-up">
             We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
 
           </div>
