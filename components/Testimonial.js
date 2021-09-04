@@ -29,7 +29,7 @@ function Testimonial() {
                     <h4>Albert Kamunde</h4>
 
                    <div className={styles.tt}>
-                    My website was delivered in a week's time.I like the speed.
+                    My website was delivered in a weeks time.I like the speed.
                 </div>
                 </div>
                
