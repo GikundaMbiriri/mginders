@@ -26,7 +26,7 @@ function Services() {
     return (
         <div className={styles.industry}>
         <div className={styles.hind}><h2>Services We Offer</h2></div>
-        <div className={styles.hdiv}  data-aos="fade-up-left">
+        <div className={styles.hdiv} >
 
           
 
