@@ -28,7 +28,7 @@ import Testimonial from '../components/Testimonial';
 import Slider from "react-slick";
 import About from '../components/About';
 import Tt from '../components/Tt';
-
+import Typed from "react-typed";
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -48,21 +48,31 @@ function Home() {
         <div className="beba" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2500">
-          <h2>
-            Your best Tech solution
-          </h2>
-          <div className="hrule">
+         
+        
+         <div className="htext">
+          <Typed strings={["We are M-Grinders Technologies!"]} typeSpeed={40} showCursor={false}>
+            <h1 />
+          </Typed>
 
+            <br/>
+            <Typed
+            strings={[
+              "We design ",
+              "We develop ",
+              "We install ",
+            ]}
+            typeSpeed={70}
+            backSpeed={70}
+            loop
+          /> amazing tech solutions.
+         
           </div>
-          <div className="htext">
-            We are MGrinders Technologies!We design ,develop and install amazing tech solutions.
-            We also train and mentor passionate Tech Enthusiasts.
-          </div>
-          <Link href="/about"><a>
-          <button className="xv" type="button">
-            Find Out More
-          </button>
-</a></Link>
+     
+
+       
+       
+    
         </div>
 
 
@@ -75,19 +85,13 @@ function Home() {
         <PersonIcon className="hh" style={{ fontSize: 150 }} />
         <div className="beb" >
           <h2>Satisfaction Guaranteed</h2>
-          <div className="hte">
-            We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
+         <div className="hte">
+            We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
 
           </div>
 
         </div>
-        <div className="dd" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="500">
-        <button className="xvv" type="button">
-            Find Out More
-          </button>
-        </div>
+       
       </div>
 
       <div className="about">

@@ -27,6 +27,7 @@ import Contact from '../components/Contact'
 import Services from '../components/Services'
 import Testimonial from '../components/Testimonial'
 import About from '@/components/About';
+import Typed from "react-typed";
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -45,20 +46,34 @@ function Home() {
         <div className="beba" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2500">
-          <h2>
+          {/* <h2>
             Your best Tech solution
-          </h2>
-          <div className="hrule">
+          </h2> */}
+          {/* <div className="hrule">
 
-          </div>
+          </div> */}
           <div className="htext">
-            We are MGrinders Technologies!We design ,develop and install amazing tech solutions.
-            We also train and mentor passionate Tech Enthusiasts.
-          </div>
-          <button className="xv" type="button">
-            Find Out More
-          </button>
+          <Typed strings={["We are M-Grinders Technologies!"]} typeSpeed={40} showCursor={false}>
+            <h1 />
+          </Typed>
 
+            <br/>
+            <Typed
+            strings={[
+              "We design ",
+              "We develop ",
+              "We install ",
+            ]}
+            typeSpeed={70}
+            backSpeed={70}
+            loop
+          /> amazing tech solutions.
+         
+          </div>
+     
+
+       
+       
         </div>
 
         {/* <Carousel autoPlay={true} axis='vertical' autoFocus={true} centerMode={true} infiniteLoop={true} transitionTime={5000}>
@@ -79,18 +94,12 @@ function Home() {
         <div className="beb" >
           <h2>Satisfaction Guaranteed</h2>
           <div className="hte">
-            We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,
+            We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
 
           </div>
 
         </div>
-        <div className="dd" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="500">
-        <button className="xvv" type="button">
-            Find Out More
-          </button>
-        </div>
+      
       </div>
 
       <div className="about">
