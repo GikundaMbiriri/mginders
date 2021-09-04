@@ -192,6 +192,7 @@ p {
 .test {
   height: 70vh;
   width: 100vw;
+
   background: linear-gradient(rgba(70, 3, 77, 0.603), rgba(66, 2, 71, 0.45)),
     url(../public/home.jpg);
   background-repeat: no-repeat;

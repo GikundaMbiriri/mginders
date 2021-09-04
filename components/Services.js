@@ -1,7 +1,7 @@
 import app from '../public/app.jpg'
 import iot from '../public/iot.jpg'
 import teach from '../public/teach.png'
-import ec from '../public/ec.jpg'
+import dd from '../public/dd.jpg'
 import Image from 'next/image'
 import webdesign from 'public/webdesign.jpg'
 import webapps from 'public/ap.jpg'
@@ -33,8 +33,9 @@ function Services() {
 
 
           </div>
-          <Image src={webdesign} alt="what we do" className={styles.ime} width={500} height={hhh} />
+          <Image src={dd} alt="what we do" className={styles.ime} width={500} height={hhh} />
         </div>
+        <div className={styles.hj}/>
         <div className={styles.hdiv}>
 
          
@@ -49,6 +50,7 @@ function Services() {
           </div>
           <Image src={mobi} alt="what we do" className={styles.ime} width={500} height={hhh} />
         </div>
+        <div className={styles.hj}/>
         <div className={styles.hdiv}>
 
          
@@ -63,6 +65,7 @@ We also help our clients store their data in secure databases and back it up in 
           </div>
           <Image src={iot} alt="what we do" className={styles.ime} width={500} height={hhh} />
         </div>
+        <div className={styles.hj}/>
         <div className={styles.hdiv}>
 
          
@@ -89,6 +92,8 @@ We run programming classes both physically and online .Currently ,we are offerin
           </div>
           <Image src={daro} alt="what we do" className={styles.ime} width={500} height={hhh} />
         </div>
+      
+        <div className={styles.hj}/>
       </div>
     )
 }

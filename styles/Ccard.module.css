@@ -1,0 +1,27 @@
+.scs{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100vw;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+.fd{
+	text-align: center;
+}
+.rt{
+	height: 200px;
+}
+.ccc{
+	width: 30vw;
+	padding: 10px;
+	text-align: center;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 800px){
+	.ccc{
+		width: 70vw;
+		margin: auto;
+	}
+}

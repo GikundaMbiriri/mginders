@@ -1,5 +1,6 @@
 import styles from '../styles/About.module.css';
-import im from '../public/yes.jpeg'
+import ob from '../public/ob.jpg'
+import sisi from '../public/sisi.png'
 import Image from 'next/image';
 import  { useEffect } from "react";
 import AOS from 'aos';
@@ -24,7 +25,7 @@ function About() {
             <br/>
             You can also attend our coding classes that equip you with the best and most competitive skills in the market
              </div>
-             <Image src={im} alt="about image" height={hhh} width={500} />
+             <Image src={ob} alt="about image" height={hhh} width={500} />
              </div>
 {/* <div className={styles.mission} data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
