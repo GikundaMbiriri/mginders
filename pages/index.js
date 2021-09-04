@@ -53,11 +53,12 @@ function Home() {
 
           </div> */}
           <div className="htext">
-          <Typed strings={["We are M-Grinders Technologies!"]} typeSpeed={40} showCursor={false}>
+          <Typed strings={["Bring your ideas to life!"]} typeSpeed={40} showCursor={false}>
             <h1 />
           </Typed>
 
             <br/>
+         
             <Typed
             strings={[
               "We design ",
@@ -66,9 +67,9 @@ function Home() {
             ]}
             typeSpeed={70}
             backSpeed={70}
-            loop
+            loop 
           /> amazing tech solutions.
-         
+     
           </div>
      
 

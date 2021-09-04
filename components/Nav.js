@@ -7,7 +7,7 @@ function Nav() {
         <input type="checkbox" id="navh-check" />
         <div className="navh-header">
           <div className="navh-title">
-            M-GRINDERS
+           <span className="m"> M</span>-<span className="g" >GRINDERS</span>
           </div>
         </div>
         <div className="navh-btn">

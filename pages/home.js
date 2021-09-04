@@ -51,7 +51,7 @@ function Home() {
          
         
          <div className="htext">
-          <Typed strings={["We are M-Grinders Technologies!"]} typeSpeed={40} showCursor={false}>
+          <Typed strings={["Bring your ideas to life!"]} typeSpeed={40} showCursor={false}>
             <h1 />
           </Typed>
 
