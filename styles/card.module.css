@@ -3,16 +3,24 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
 }
 .card1 h2 {
   font-size: 22px;
+  color: #eee;
 }
 .industry {
   background-color: #eee;
   padding-top: 20px;
+  display: none;
+}
+.industr {
+  background-color: #eee;
+  padding-top: 20px;
+  display: block;
 }
 .ic {
-  color: rgb(56, 8, 100);
+  color: rgb(248, 206, 155);
 }
 .hind h2 {
   color: rgb(56, 8, 100);
@@ -35,7 +43,11 @@
   width: 40vw;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
-  padding-bottom: 20px;
+
+  padding: 5px 5px 20px 5px;
+  border-radius: 5px;
+   background-color: rgb(56, 8, 100);
+   color: rgb(255, 255, 255);
 }
 .desc span {
   font-size: 18px;
@@ -51,6 +63,12 @@
 @media (max-width: 700px) {
   .desc {
     width: 90vw;
+  }
+  .industry{
+    display: block;
+  }
+  .industr{
+    display: none;
   }
   .hdiv {
     width: 90vw;

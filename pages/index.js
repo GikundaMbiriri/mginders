@@ -92,9 +92,9 @@ function Home() {
        
       
         <PersonIcon className="hh" style={{ fontSize: 150 }} />
-        <div className="beb" >
-          <h2 data-aos="fade-down">Satisfaction Guaranteed</h2>
-          <div className="hte" data-aos="fade-up">
+        <div className="beb"  data-aos="fade-down">
+          <h2 >Satisfaction Guaranteed</h2>
+          <div className="hte" >
             We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
 
           </div>
@@ -103,7 +103,7 @@ function Home() {
       
       </div>
 
-      <div className="about">
+      <div className="about" data-aos="fade-up-right">
         
        <About/>
       </div>
