@@ -34,7 +34,7 @@ function Nav() {
     <>
       <nav>
         <div className="logo">
-          <img src={gh} alt="Logo Image" />
+          <Image src={gh} alt="Logo Image" />
         </div>
         <div className={ham} onClick={handleClicks}>
           <div className="line1"></div>
