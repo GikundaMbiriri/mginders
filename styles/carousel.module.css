@@ -2,6 +2,7 @@
 .carrier{
 	position: relative;
 }
+
 .tt{
 	 position: absolute;
 	  top: 0px;
@@ -23,6 +24,14 @@ justify-content: space-around;
 	 position: absolute;
 	  top: 0px;
 }
+.imo{
+	display: none;
+}
+.i{
+	 position: absolute;
+	  top: 0px;
+	  display: none;
+}
 .tt h6{
 	 color: white;
 }
@@ -31,4 +40,14 @@ justify-content: space-around;
  }
 
 
-
+@media (max-width: 800px){
+	.i{
+		display: block;
+	}
+	.im{
+		display: none;
+	}
+	.tt{
+		padding-top: 150px;
+	}
+}

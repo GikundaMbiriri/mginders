@@ -27,6 +27,7 @@ function Carouse() {
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='70vh'/>
+      
          <div className={styles.tt}><div className={styles.ona}>
          <h4>Your complete online presence</h4>
          <h2>Our priority.</h2>
@@ -37,12 +38,14 @@ function Carouse() {
 
         <Image src={rt} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='70vh'/>
+       
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='70vh'/>
+       
          <div className={styles.tt}>We are the best</div>
        </div>
  </Carousel>

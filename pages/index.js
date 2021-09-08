@@ -28,6 +28,7 @@ import Footer from '../components/Footer';
 import Contact from '../components/Contact'
 import Services from '../components/Services'
 import Testimonial from '../components/Testimonial'
+import Company from '../components/Company'
 import About from '@/components/About';
 import Typed from "react-typed";
 function Home() {
@@ -46,73 +47,8 @@ function Home() {
     <Nav/>
     <Carou/>
     <What/>
-      <div className="test">
-        <div className="beba" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2500">
-          {/* <h2>
-            Your best Tech solution
-          </h2> */}
-          {/* <div className="hrule">
-
-          </div> */}
-          <div className="htext">
-          <Typed strings={["Bring your ideas to life!"]} typeSpeed={40} showCursor={false}>
-            <h1 />
-          </Typed>
-
-            <br/>
-         
-            <Typed
-            strings={[
-              "We design ",
-              "We develop ",
-              "We install ",
-            ]}
-            typeSpeed={70}
-            backSpeed={70}
-            loop 
-          /> amazing tech solutions.
-     
-          </div>
-     
-
-       
-       
-        </div>
-
-        {/* <Carousel autoPlay={true} axis='vertical' autoFocus={true} centerMode={true} infiniteLoop={true} transitionTime={5000}>
-              {images.map((em)=>(
-<div className="tes" key={em.id}>
-   <ImageContainer em={em.name}/>
-
-</div>
-              ))}
-             
-            
-          </Carousel> */}
-      </div>
-      <div className="hbeba">
-       
+    <Company/>
       
-        <PersonIcon className="hh" style={{ fontSize: 150 }} />
-        <div className="beb"  data-aos="fade-down">
-          <h2 >Satisfaction Guaranteed</h2>
-          <div className="hte" >
-            We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
-
-          </div>
-
-        </div>
-      
-      </div>
-
-      <div className="about" data-aos="fade-up-right">
-        
-       <About/>
-      </div>
-     <Services/>
-
       <Testimonial/>
        {/* <Contact/> */}
      <Footer/>

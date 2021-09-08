@@ -1,0 +1,82 @@
+.la{
+	width: 100vw;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgb(227,235,246);
+}
+.la h2{
+	color: rgb(59, 63, 74);
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.la p{
+	color: rgba(69, 89, 122, 0.6);
+	font-size: 22px;
+
+}
+.ff{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100vw;
+	padding-top: 40px;
+}
+.left{
+	width: 45vw;
+
+}
+.left h2{
+color: #3b3f4a;
+	font-weight: bold;
+	font-size: 35px;
+}
+.left h6{
+	color: rgba(69, 89, 122, 0.8);
+	
+	font-size: 20px;
+	font-weight: 700;
+}
+.left p{
+		color: rgba(69, 89, 122, 0.8);
+	
+	font-size: 16px;
+	font-weight: 500;
+}
+.right{
+	width: 45vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+.pos{
+	width: 18vw;
+}
+.pos h1{
+	color: rgba(255,165,0,0.6);
+	font-size: 60px;
+	font-weight: 750;
+}
+.pos h6{
+	color: rgb(59, 63, 74);
+	font-size: 20px;
+	font-weight: 700;
+}
+.pos p{
+	color: rgba(69, 89, 122, 0.6);
+	font-size: 18px;
+}
+@media (max-width: 800px){
+	.left{
+		width: 90vw;
+	}
+	.right{
+		width: 90vw;
+	}
+	.pos{
+		width: 40vw;
+	}
+}
