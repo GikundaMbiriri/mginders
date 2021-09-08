@@ -1,3 +1,13 @@
 .ime{
 	object-fit: cover;
 }
+.is{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100vw;
+}
+.it{
+	width: 30vw;
+	
+}

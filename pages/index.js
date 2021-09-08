@@ -21,6 +21,7 @@ import aboutus from '../public/about.jpg'
 import app from '../public/app.jpg'
 import iot from '../public/iot.jpg'
 import teach from '../public/teach.png'
+import Carou from '@/components/Carousel'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer';
 import Contact from '../components/Contact'
@@ -42,6 +43,7 @@ function Home() {
 
     
     <Nav/>
+    <Carou/>
       <div className="test">
         <div className="beba" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"

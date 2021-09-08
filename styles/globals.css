@@ -38,6 +38,9 @@
   margin: 0px;
   font-family: "segoe ui";
 }
+body{
+  overflow-x: hidden;
+}
 .xv {
   background-color: rgba(56, 32, 112, 0.932);
   color: #eee;
