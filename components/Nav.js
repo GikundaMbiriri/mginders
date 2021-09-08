@@ -2,7 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import styles from '../styles/nav.module.css'
-import gh from '../public/daro.jpg'
+import gh from '../public/oracom.png'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 function Nav() {
   const [ham, setHam] = useState('hamburger');
   const [navl, setNavl] = useState('nav-links');
@@ -15,7 +18,7 @@ function Nav() {
       setNavl('nav-links')
     }
     if (nl === 'l') {
-      setNl('fade')
+      setNl('l')
     }
     else {
       setNl('')
@@ -42,13 +45,12 @@ function Nav() {
           <div className="line3"></div>
         </div>
         <ul className={navl}>
-          <li className={nl}><a className="on" >Home</a></li>
-          <li className={nl}><a >Solutions</a></li>
-          <li className={nl}><a >Products</a></li>
-          <li className={nl}><a >Services</a></li>
-          <li className={nl}><a >Contact Us</a></li>
-          <li className={nl}><button className="login-button" >Login</button></li>
-          <li className={nl}><button className="join-button" >Join</button></li>
+          <li className={nl}><Link href="/"><a className="anchor" >Home</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" >Solutions</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" >Products</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" >Services</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" >Contact Us</a></Link></li>
+         <li className={nl}><Link href="/"><a ><FacebookIcon className="an" /></a></Link> <Link href="/"><a><TwitterIcon className="an"/></a></Link> <Link href="/"><a><YouTubeIcon className="an"/></a></Link></li>
         </ul>
       </nav>
     </>

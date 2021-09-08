@@ -2,19 +2,12 @@
 body{
     overflow-x: hidden;
 }
-*{
-    margin: 0;
-    padding: 0;
-    color: #f2f5f7;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
-}
+
 
 nav{
     height: 6rem;
     width: 100vw;
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color:rgba(59, 63, 74,0.85);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -41,27 +34,31 @@ nav{
     align-items: center;
     text-transform: uppercase;
 }
-.nav-links li a{
+.anchor{
     text-decoration: none;
+    color: white;
     margin: 0 0.7vw;
 }
-.nav-links li a:hover {
-    color: #61DAFB;
+.an{
+    color:  #fbb269;
+}
+.anchor:hover {
+    color: #fbb269;
 }
 .nav-links li {
     position: relative;
 }
-.nav-links li a::before {
+.anchor::before {
     content: "";
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #fbb269;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
 }
-.nav-links li a:hover::before{
+.anchor:hover::before{
     width: 80%;
 }
 
@@ -116,6 +113,7 @@ nav{
     nav{
         position: fixed;
         z-index: 3;
+        height: 60px
     }
     .hamburger{
         display:block;
@@ -174,6 +172,10 @@ nav{
     }
     .on{
     color: white;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
 }
 }
 /*Animating Hamburger Icon on Click*/
