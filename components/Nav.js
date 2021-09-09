@@ -30,6 +30,11 @@ function Nav() {
       setHam('hamburger')
     }
   }
+  function hand(){
+    setHam('hamburger');
+    setNavl('nav-links');
+    setNl('l');
+  }
   console.log(ham)
   console.log(navl)
   console.log(nl)
@@ -45,11 +50,11 @@ function Nav() {
           <div className="line3"></div>
         </div>
         <ul className={navl}>
-          <li className={nl}><Link href="/"><a className="anchor" >Home</a></Link></li>
-          <li className={nl}><Link href="/"><a className="anchor" >Solutions</a></Link></li>
-          <li className={nl}><Link href="/"><a className="anchor" >Products</a></Link></li>
-          <li className={nl}><Link href="/"><a className="anchor" >Services</a></Link></li>
-          <li className={nl}><Link href="/"><a className="anchor" >Contact Us</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" onClick={hand} >Home</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" onClick={hand} >Solutions</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" onClick={hand}  >Products</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor" onClick={hand}  >Services</a></Link></li>
+          <li className={nl}><Link href="/"><a className="anchor"  onClick={hand} >Contact Us</a></Link></li>
          <li className={nl}><Link href="/"><a ><FacebookIcon className="an" /></a></Link> <Link href="/"><a><TwitterIcon className="an"/></a></Link> <Link href="/"><a><YouTubeIcon className="an"/></a></Link></li>
         </ul>
       </nav>
