@@ -26,7 +26,7 @@ function Car() {
         <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='100vh'/>
+       objectFit="cover" width='100vw' height='70vh'/>
       
          <div className={styles.tt}><div className={styles.ona}>
          <h4>Your complete online presence</h4>
@@ -37,14 +37,14 @@ function Car() {
        <div className={styles.carrier}>
 
         <Image src={rt} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='100vh'/>
+       objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='100vh'/>
+       objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
