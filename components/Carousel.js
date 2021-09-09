@@ -21,7 +21,7 @@ function Carouse() {
       infiniteLoop
       showIndicators={false}
       showStatus={false}
-      showThumbs={false} className={styles.ccm}
+      showThumbs={false} 
     >
         <div className={styles.carrier}>
 
