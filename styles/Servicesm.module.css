@@ -1,0 +1,64 @@
+.banner{
+	height: 60vh;
+	width:100vw;
+	 background: linear-gradient(rgba(18, 14, 13, 0.65), rgba(86, 71, 61, 0.603)),
+    url(../public/dam.jpg);
+    padding-top: 30vh;
+
+}
+.banner h2{
+	color: white;
+	text-align: center;
+}
+.banner h6{
+	color: white;
+	text-align: center;
+}
+.services{
+	background-color: #ECEBE6;
+	padding-top: 30px;
+	width:100vw;
+	margin-bottom: 30px;
+}
+.services h2{
+	text-align: center;
+	padding: 5px;
+}
+.services h6{
+	text-align: center;
+	padding: 5px;
+
+}
+.bts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100vw;
+padding-bottom: 30px;
+
+}
+.bt{
+width: 20vw;
+color: white;
+background-color: #F26722;
+text-align: center;
+padding: 8px;
+cursor: pointer;
+}
+.ss{
+	background-color: white;
+	padding: 30px;
+	width: 80vw;
+	margin: auto;
+}
+.ss h3{
+	color: #1B2D72;
+	text-align: center;
+}
+.ss h6{
+	color: #F26722;
+	text-align: center;
+}
+.ime{
+	object-fit: cover;
+}
