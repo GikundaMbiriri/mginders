@@ -20,6 +20,7 @@
     "next": "11.0.1",
     "popper.js": "^1.16.1",
     "react": "17.0.2",
+    "react-animated-progress-bar": "^1.0.4",
     "react-dom": "17.0.2",
     "react-markdown": "^6.0.2",
     "react-material-ui-carousel": "^2.3.1",

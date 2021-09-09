@@ -1,0 +1,59 @@
+.banner{
+	height: 60vh;
+	width:100vw;
+	 background: linear-gradient(rgba(18, 14, 13, 0.65), rgba(86, 71, 61, 0.603)),
+    url(../public/dam.jpg);
+    padding-top: 30vh;
+
+}
+.banner h2{
+	color: white;
+	text-align: center;
+}
+.banner h6{
+	color: white;
+	text-align: center;
+}
+.about{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100vw;
+	margin-top: 30px;
+}
+.im{
+	object-fit: cover;
+	width: 40vw;
+
+}
+.right{
+	width: 40vw;
+
+}
+.right p{
+	color: #787D85;
+	font-weight: 600;
+}
+.right h2{
+	color: #3B3F4A;
+}
+.ccc{
+	background-color: #F9F9F9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.sidea{
+	width: 40vw;
+}
+.sideb{
+width: 40vw;
+
+}
+.story h2{
+	color: #666666;
+}
+.story p{
+	
+}
