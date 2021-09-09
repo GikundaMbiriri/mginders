@@ -10,7 +10,10 @@ import Image from 'next/image';
 function Testimonial() {
     return (
        <>
-       <h2 className={styles.hh}>Testimonials</h2>
+      <div className={styles.la}>
+          <h2>Testimonials</h2>
+          <p>What our Clients say</p>
+          </div>
              <Carousel autoPlay={true} infiniteLoop={true} interval={2500} showThumbs={false}>
                
                 <div className={styles.cc}>

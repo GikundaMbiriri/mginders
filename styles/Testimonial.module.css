@@ -9,12 +9,30 @@
   text-align: center;
   color: rgb(40, 13, 70);
 }
+.la{
+  width: 100vw;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(227,235,246);
+  margin-bottom: 30px;
+}
+.la h2{
+  color: rgb(59, 63, 74);
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.la p{
+  color: rgba(69, 89, 122, 0.6);
+  font-size: 22px;
+
+}
 .cc h4 {
   font-family: "EB Garamond", serif;
   color: antiquewhite;
 }
-.cc p {
-}
+
 .tt {
   color: white;
   width: 200px;

@@ -1,0 +1,28 @@
+.tt{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.ic{
+	width: 20vw;
+	text-align: center;
+
+}
+.fc{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 50%;
+	border:1px solid brown;
+}
+.jh{
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	border:1px solid brown;
+		border-radius: 50%;
+
+	
+}

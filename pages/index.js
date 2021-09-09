@@ -31,6 +31,8 @@ import Testimonial from '../components/Testimonial'
 import Company from '../components/Company'
 import About from '@/components/About';
 import Typed from "react-typed";
+import Whatsapp from '../components/Whatsapp'
+import Socials from '../components/Socials'
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -50,7 +52,9 @@ function Home() {
     <Company/>
       
       <Testimonial/>
+    
        {/* <Contact/> */}
+       <Whatsapp/>
      <Footer/>
 
      
