@@ -16,6 +16,13 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 }
+.ccm{
+	height: 100vh;
+	width: 100vw;
+}
+.im{
+	height: 100vh;
+}
 .s p{
 	border:solid #fbb269 1px;
 	color: red;

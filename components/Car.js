@@ -12,7 +12,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import styles from '../styles/carousel.module.css';
 import "animate.css"
 
-function Carouse() {
+function Car() {
     
     return (
         <>
@@ -26,7 +26,7 @@ function Carouse() {
         <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='120'/>
+       objectFit="cover" width='100vw' height='100vh'/>
       
          <div className={styles.tt}><div className={styles.ona}>
          <h4>Your complete online presence</h4>
@@ -37,14 +37,14 @@ function Carouse() {
        <div className={styles.carrier}>
 
         <Image src={rt} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='120'/>
+       objectFit="cover" width='100vw' height='100vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
-       objectFit="cover" width='100vw' height='120'/>
+       objectFit="cover" width='100vw' height='100vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
@@ -55,4 +55,4 @@ function Carouse() {
     )
 }
 
-export default Carouse
+export default Car

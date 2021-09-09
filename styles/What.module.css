@@ -3,16 +3,16 @@
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-color: rgb(227,235,246);
+	background-color: #E3EBF6;
 }
 .pj h2{
-	color: rgb(59, 63, 74);
+	color: #3B3F4A;
 	font-size: 40px;
 	font-weight: bold;
 
 }
 .pj p{
-	color: rgba(69, 89, 122, 0.6);
+	color: #ADB0BC;
 	font-size: 22px;
 
 }
@@ -36,7 +36,7 @@
 	width: 25vw;
 }
 .left h2{
-	color: #3b3f4a;
+	color: #3B3F4A;
 	font-weight: bold;
 	font-size: 35px;
 }

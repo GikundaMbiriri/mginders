@@ -33,6 +33,7 @@ import About from '@/components/About';
 import Typed from "react-typed";
 import Whatsapp from '../components/Whatsapp'
 import Socials from '../components/Socials'
+import Car from '../components/Car'
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -47,12 +48,17 @@ function Home() {
 
     
     <Nav/>
-    <Carou/>
+    <div className="simu">
+    <Carou />
+    </div>
+    <div className="lapi">
+    <Car className="lapi"/>
+    </div>
     <What/>
     <Company/>
       
       <Testimonial/>
-    
+
        {/* <Contact/> */}
        <Whatsapp/>
      <Footer/>

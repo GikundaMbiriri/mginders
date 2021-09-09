@@ -11,6 +11,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.simu{
+  display: none;
+}
+.lapi{
+  display: block;
+}
 /* div .test {
   height: 100vh;
   width: 100vw;
@@ -374,6 +380,13 @@ footer hr {
 }
 
 @media (max-width: 767px) {
+  .lapi{
+    display: none;
+
+  }
+  .simu{
+    display: block;
+  }
   .footer .content {
     display: flex;
     flex-direction: column;
