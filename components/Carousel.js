@@ -1,10 +1,10 @@
 import ob from '../public/appdev.jpg'
-import sisi from '../public/sisi1.png'
-import man from '../public/man2.png'
-import io from '../public/io1.png'
+import sisi from '../public/sisi.jpg'
+import man from '../public/man.jpg'
+import io from '../public/io.jpg'
 import Image from 'next/image';
 import  { useEffect } from "react";
-import aa from '../public/aa1.png'
+import aa from '../public/aa.jpg'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { Carousel } from 'react-responsive-carousel';
