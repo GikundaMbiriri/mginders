@@ -7,33 +7,58 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 function Servicesm() {
+     useEffect(() => {
+    AOS.init({
+      duration : 1500
+    });
+  }, []);
     const [Web,setWeb]=useState(true);
     const [App,setApp]=useState(false);
     const [Man,setMan]=useState(false);
     const [Iot,setIot]=useState(false);
+    const [cn,setCn]=useState('active');
+    const [cn1,setCn1]=useState('bt');
+    const [cn2,setCn2]=useState('bt');
+    const [cn3,setCn3]=useState('bt');
     function fweb(){
         setWeb(true);
         setApp(false);
         setMan(false);
         setIot(false);
+        setCn('active');
+        setCn1('bt');
+        setCn2('bt');
+        setCn3('bt');
     }
     function fapp(){
         setWeb(false);
         setApp(true);
         setMan(false);
         setIot(false);
+        setCn('bt');
+        setCn1('active');
+        setCn2('bt');
+        setCn3('bt');
     }
         function fman(){
         setWeb(false);
         setApp(false);
         setMan(true);
         setIot(false);
+         setCn('bt');
+        setCn1('bt');
+        setCn2('active');
+        setCn3('bt');
     }
         function fiot(){
         setWeb(false);
         setApp(false);
         setMan(false);
         setIot(true);
+        setCn('bt');
+        setCn1('bt');
+        setCn2('bt');
+        setCn3('active');
     }
    
     return (
@@ -48,13 +73,13 @@ function Servicesm() {
         <h6>We are a tech solutions company based in Nairobi, Kenya
 offering the following services</h6>
 <div className={styles.bts}>
-<div className={styles.bt} onClick={fweb}>Web Development</div>
-<div className={styles.bt} onClick={fapp}>App Development</div>
-<div className={styles.bt} onClick={fman}>Management Systems</div>
-<div className={styles.bt} onClick={fiot}>IOT Projects</div>
+<div className={styles.[cn]}  onClick={fweb}>Web Development</div>
+<div className={styles.[cn1]} onClick={fapp}>App Development</div>
+<div className={styles.[cn2]} onClick={fman}>Management Systems</div>
+<div className={styles.[cn3]} onClick={fiot}>IOT Projects</div>
 </div>
-{Web && <div className={styles.ss}>
-<h3>Web Development</h3>
+{Web && <div className={styles.ss} data-aos="fade-up-right">
+<h3 >Web Development</h3>
 <h6>We offer affordable web development services</h6>
 <Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
 <p>If you are looking for a top web design company in Nairobi, Kenya then we are pleased to inform you that your search has come to an end.
@@ -70,7 +95,7 @@ Our websites are usually fully optimized and rank highly on search engines like 
 Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
 </div>}
 
-{App && <div className={styles.ss}>
+{App && <div className={styles.ss} data-aos="fade-up-right">
 <h3>App Development</h3>
 <h6>We offer affordable App development services</h6>
 <Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
@@ -87,7 +112,7 @@ Our websites are usually fully optimized and rank highly on search engines like 
 Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
 </div>}
 
-{Man && <div className={styles.ss}>
+{Man && <div className={styles.ss} data-aos="fade-up-right">
 <h3  >App Development</h3>
 <h6>We offer affordable App development services</h6>
 <Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
@@ -103,7 +128,7 @@ Our websites are usually fully optimized and rank highly on search engines like 
 
 Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
 </div>}
-{Iot && <div className={styles.ss}>
+{Iot && <div className={styles.ss} data-aos="fade-up-right">
 <h3>App Development</h3>
 <h6>We offer affordable App development services</h6>
 <Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />

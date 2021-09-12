@@ -93,3 +93,25 @@ padding: 20px;
 	width: 30vw;
 	margin: auto;
 }
+@media(max-width: 800px){
+	.im{
+		width: 90vw;
+		margin: auto;
+	}
+	.right {
+		width: 90vw;
+		margin: auto;
+	}
+	.sidea{
+		width: 90vw;
+	}
+	.sideb{
+		width: 90vw;
+	}
+	.beba{
+		width: 90vw;
+	}
+	.text{
+		width: 70vw;
+	}
+}

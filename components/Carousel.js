@@ -28,7 +28,9 @@ function Carouse() {
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='120'/>
       
-        
+         <div className={styles.tt}><h2>Web Development</h2>
+<h5>We deliver first and responsive websites on time</h5>
+         </div>
          
        </div>
        <div className={styles.carrier}>

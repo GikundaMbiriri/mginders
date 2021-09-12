@@ -45,6 +45,16 @@ text-align: center;
 padding: 8px;
 cursor: pointer;
 }
+.active{
+	background-color: white;
+	color: #F26722;
+	font-weight: bold;
+	width: 20vw;
+	text-align: center;
+	padding: 8px;
+cursor: pointer;
+
+}
 .ss{
 	background-color: white;
 	padding: 30px;
@@ -61,4 +71,14 @@ cursor: pointer;
 }
 .ime{
 	object-fit: cover;
+}
+@media (max-width: 800px){
+	.bt{
+		width: 40vw;
+		margin-bottom: 10px;
+	}
+	.active{
+		width: 40vw;
+		margin-bottom: 10px;
+	}
 }

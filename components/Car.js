@@ -1,11 +1,10 @@
-
 import ob from '../public/appdev.jpg'
-import sisi from '../public/sisi1.png'
-import man from '../public/man2.png'
-import io from '../public/io1.png'
+import sisi from '../public/splash.jpg'
+import man from '../public/man.jpg'
+import io from '../public/io.jpg'
 import Image from 'next/image';
 import  { useEffect } from "react";
-import aa from '../public/aa1.png'
+import aa from '../public/aa.jpg'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -28,7 +27,7 @@ function Car() {
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im}  priority="true" layout="responsive"
        objectFit="cover" width='100vw' height='70vh'/>
-      
+      <div className={styles.tt}><h2>We are the best.</h2></div>
         
          
        </div>
