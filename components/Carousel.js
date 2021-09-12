@@ -1,10 +1,10 @@
-
-import ob from '../public/super.jpg'
-import sisi from '../public/splash.jpg'
-import rt from '../public/iot1.jpg'
+import ob from '../public/appdev.jpg'
+import sisi from '../public/sisi1.png'
+import man from '../public/man2.png'
+import io from '../public/io1.png'
 import Image from 'next/image';
 import  { useEffect } from "react";
-
+import aa from '../public/aa1.png'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -23,27 +23,31 @@ function Carouse() {
       showStatus={false}
       showThumbs={false} 
     >
-        <div className={styles.carrier}>
+           <div className={styles.carrier}>
 
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='120'/>
       
-         <div className={styles.tt}><div className={styles.ona}>
-         <h4>Your complete online presence</h4>
-         <h2>Our priority.</h2>
-         </div><div className={styles.s}><p>Request a quote</p></div></div>
+        
          
        </div>
        <div className={styles.carrier}>
 
-        <Image src={rt} alt="kdjdj dj" className={styles.im} layout="responsive"
+        <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='120'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
-        <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive"
+        <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive"
+       objectFit="cover" width='100vw' height='120'/>
+       
+         <div className={styles.tt}>We are the best</div>
+       </div>
+          <div className={styles.carrier}>
+
+        <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive"
        objectFit="cover" width='100vw' height='120'/>
        
          <div className={styles.tt}>We are the best</div>
@@ -55,4 +59,4 @@ function Carouse() {
     )
 }
 
-export default Carouse
+export default Carouse;

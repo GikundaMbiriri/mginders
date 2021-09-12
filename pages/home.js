@@ -51,7 +51,7 @@ function Home() {
          
         
          <div className="htext">
-          <Typed strings={["Bring your ideas to life!"]} typeSpeed={40} showCursor={false}>
+          <Typed strings={["We are M-Grinders Technologies!"]} typeSpeed={40} showCursor={false}>
             <h1 />
           </Typed>
 
@@ -83,10 +83,10 @@ function Home() {
        
       
         <PersonIcon className="hh" style={{ fontSize: 150 }} />
-        <div className="beb"  data-aos="fade-down">
+        <div className="beb" >
           <h2>Satisfaction Guaranteed</h2>
-         <div className="hte">
-            We understand the complexities of modern markets and translate them into real business solutions for organisations, institutions,start-ups and enterprises.
+          <div className="hte">
+            We understand the complexities of modern markets and translate them into real business solutions for institutions,organisations,start-ups and enterprises.
 
           </div>
 
@@ -94,7 +94,7 @@ function Home() {
        
       </div>
 
-      <div className="about" data-aos="fade-up-right">
+      <div className="about">
         
       <About/>
       </div>
