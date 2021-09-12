@@ -53,7 +53,7 @@ function Nav() {
           <li className={nl}><Link href="/"><a className="anchor" onClick={hand} >Home</a></Link></li>
           <li className={nl}><Link href="/aboutm"><a className="anchor" onClick={hand} >About</a></Link></li>
           <li className={nl}><Link href="/servicesm"><a className="anchor" onClick={hand}  >Services</a></Link></li>
-          <li className={nl}><Link href="/contact"><a className="anchor"  onClick={hand} >Contact Us</a></Link></li>
+          <li className={nl}><Link href="/contact-us"><a className="anchor"  onClick={hand} >Contact Us</a></Link></li>
          <li className={nl}><Link href="/"><a ><FacebookIcon className="an" /></a></Link> <Link href="/"><a><TwitterIcon className="an"/></a></Link> <Link href="/"><a><YouTubeIcon className="an"/></a></Link></li>
         </ul>
       </nav>
