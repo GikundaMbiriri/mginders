@@ -21,7 +21,7 @@ function aboutm() {
         <>
         <Nav/>
         <About/>
-        
+        <Footer/>
        </>
     )
 }

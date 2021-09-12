@@ -1,16 +1,13 @@
-import Ba from '../components/Ba';
+
 import Nav from '../components/Nav'
-import Cont from '../components/Cont'
+
 import Footer from '../components/Footer'
-import Ccard from '../components/Ccard'
+import ContactUs from '../components/ContactUs'
 function contact() {
     return (
         <>
         <Nav/>
-        <Ba/>
-        <Ccard/>
-        <Cont/>
-        {/* <Contact/> */}
+        <ContactUs/>
 
         <Footer/>
         </>
