@@ -25,7 +25,7 @@ function Carouse() {
     >
            <div className={styles.carrier}>
 
-        <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive" placeholder="blur"
+        <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
        objectFit="cover" width='100vw' height='120'/>
       
         
@@ -33,21 +33,21 @@ function Carouse() {
        </div>
        <div className={styles.carrier}>
 
-        <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive" placeholder="blur"
+        <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
        objectFit="cover" width='100vw' height='120'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
-        <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive" placeholder="blur"
+        <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
        objectFit="cover" width='100vw' height='120'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
           <div className={styles.carrier}>
 
-        <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive" placeholder="blur"
+        <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
        objectFit="cover" width='100vw' height='120'/>
        
          <div className={styles.tt}>We are the best</div>
