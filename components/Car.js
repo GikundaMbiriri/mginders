@@ -26,7 +26,7 @@ function Car() {
     >
         <div className={styles.carrier}>
 
-        <Image src={sisi} alt="kdjdj dj" className={styles.im} placeholder="blur" priority="true" layout="responsive"
+        <Image src={sisi} alt="kdjdj dj" className={styles.im}  priority="true" layout="responsive"
        objectFit="cover" width='100vw' height='70vh'/>
       
         
@@ -34,21 +34,21 @@ function Car() {
        </div>
        <div className={styles.carrier}>
 
-        <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
+        <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
        <div className={styles.carrier}>
 
-        <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
+        <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>We are the best</div>
        </div>
           <div className={styles.carrier}>
 
-        <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" placeholder="blur"
+        <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>We are the best</div>
