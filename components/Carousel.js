@@ -1,5 +1,5 @@
 import ob from '../public/appdev.jpg'
-import sisi from '../public/sisi.jpg'
+import sisi from '../public/splash.jpg'
 import man from '../public/man.jpg'
 import io from '../public/io.jpg'
 import Image from 'next/image';
