@@ -8,6 +8,10 @@ import "aos/dist/aos.css";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
+import HourglassEmptyIcon from '@material-ui/icons/HourglassEmpty';
+import GestureIcon from '@material-ui/icons/Gesture';
+import CodeIcon from '@material-ui/icons/Code';
+import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 function Aboutm() {
 const [story1,setStory1]=useState(true);
 const [story,setStory]=useState(false);
@@ -54,14 +58,18 @@ function fsto(){
         <Image src={sisi} alt="about"  className={styles.im} width={500} height={400} />
         <div className={styles.right} >
 <h2>About M-Grinders tech solutions</h2>
-<p>Oracom Web Solutions Ltd is a creative Web Design company in Kenya, Canada and Belgium. We stand out in the local and international market to be the best provider of Web Solutions with over 8 Years experience but always guided by Creative Teams of web developers working in both day and night shift arrangement. We are fully charged with the responsibility of developing Quality, Affordable, Effective, Efficient and Reliable Website Solutions to our ever growing wide category of clients.</p>
+<p>
+M-Grinders Technologies LTD was started in 2021 to offer the best tech solutions to businesses and individuals in Kenya and across.
+<br/>
+We are focused on bringing innovative ideas that make it easier for our clients to run their Businesses.Our team of creative developers work 24 hours in a day to ensure that they deliver quality work.Our Clients satisfaction is our main goal and we endeavour to deliver that daily.
+</p>
         </div>
         </div>
         <div className={styles.ccc}>
 <div className={styles.sidea}>
 <div className="wrapper">
   <div className="containe">
-    <h2>Our  Skills </h2>
+    <h2>What We Do </h2>
     <div className="skills">
       <div className="details">
         <span>Web Development</span>
@@ -109,12 +117,12 @@ function fsto(){
 <h2><span>+</span> Our success story</h2>
 </div>
 {story1 && <div className={styles.story1}>
-As Team Oracom Kenya, we are driven by 4 Pillars;
+As Team M-Grinders Kenya, we are driven by 4 Pillars:
 <ul>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
+<li>The Desire to lead in the tech market</li>
+<li>Creativity- creative ideas and teams</li>
+<li>Research & Innovation - we do research on upcoming Technologies</li>
+<li>Passion & Hardwork - this is what fuels us</li>
 </ul>
 
 </div>}
@@ -126,13 +134,7 @@ As Team Oracom Kenya, we are driven by 4 Pillars;
 <h2><span>+</span> Your Success - Our Business.</h2>
 </div>
 {story && <div className={styles.story1}>
-As Team Oracom Kenya, we are driven by 4 Pillars;
-<ul>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-</ul>
+At M-Grinders Technologies LTD, we offer tech solutions to our clients.We make it easier for our clients to manage their businesses.We offer services to organisations,institutions,companies and individuals.
 
 </div>}
 
@@ -143,13 +145,9 @@ As Team Oracom Kenya, we are driven by 4 Pillars;
 <h2><span>+</span> Why You will want to work with us</h2>
 </div>
 {stor && <div className={styles.story1}>
-As Team Oracom Kenya, we are driven by 4 Pillars;
-<ul>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-</ul>
+Not just amazing projects.We are a family with our clients and we follow up with them to ensure that our solutions are serving them properly.
+<br/>
+We also offer technical consultation and advice to our clients for free.
 
 </div>
 }
@@ -160,13 +158,8 @@ As Team Oracom Kenya, we are driven by 4 Pillars;
 <h2><span>+</span> How we work</h2>
 </div>
 {sto && <div className={styles.story1}>
-As Team Oracom Kenya, we are driven by 4 Pillars;
-<ul>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-<li>The Desire to lead in the market with best online solutions</li>
-</ul>
+We get to listen to your problem , we give you the options , and you get to choose the best.From there , our team of developers start working on your project and the solution is delivered on time.
+
 
 </div>}
 
@@ -179,27 +172,36 @@ As Team Oracom Kenya, we are driven by 4 Pillars;
       infiniteLoop
       showIndicators={false}
       showStatus={false}
-      showThumbs={false} stopOnHover={true} interval={4000}>
+      showThumbs={false} stopOnHover={true} interval={3000}>
                 <div className={styles.beba}>
-                    <QuestionAnswerIcon className={styles.ic} style={{fontSize:70}} />
+                    <HourglassEmptyIcon className={styles.ic} style={{fontSize:70}} />
                   <h6 className={styles.hea}>Step 1</h6>
                   <h6 className={styles.he}>Brainstorming</h6>
-                  <p className={styles.text}>The Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutions
-                  The Desire to lead in the market with best online solutions</p>
+                  <p className={styles.text}>Our team of developers listen to your problem and brainstorm on the best solutions to your problem.</p>
+                </div>
+                 <div className={styles.beba}>
+                    <GestureIcon className={styles.ic} style={{fontSize:70}} />
+                  <h6 className={styles.hea}>Step 2</h6>
+                  <h6 className={styles.he}>Sketching</h6>
+                  <p className={styles.text}>The UI team then comes up with prototypes and demo samples for the clients and developers to work with</p>
+                </div>
+                  <div className={styles.beba}>
+                    <CodeIcon className={styles.ic} style={{fontSize:70}} />
+                  <h6 className={styles.hea}>Step 3</h6>
+                  <h6 className={styles.he}>Design and Development</h6>
+                  <p className={styles.text}>Once the prototype is approved, the developers team is assigned and required to come up with a working solution for the prototype</p>
                 </div>
                  <div className={styles.beba}>
                     <QuestionAnswerIcon className={styles.ic} style={{fontSize:70}} />
-                  <h6 className={styles.hea}>Step 1</h6>
-                  <h6 className={styles.he}>Brainstorming</h6>
-                  <p className={styles.text}>The Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutions
-                  The Desire to lead in the market with best online solutions</p>
+                  <h6 className={styles.hea}>Step 4</h6>
+                  <h6 className={styles.he}>Testing </h6>
+                  <p className={styles.text}>Once the development process is complete the client and the developers go through the project to look for any bugs and fix them</p>
                 </div>
-                  <div className={styles.beba}>
-                    <QuestionAnswerIcon className={styles.ic} style={{fontSize:70}} />
-                  <h6 className={styles.hea}>Step 1</h6>
-                  <h6 className={styles.he}>Brainstorming</h6>
-                  <p className={styles.text}>The Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutionsThe Desire to lead in the market with best online solutions
-                  The Desire to lead in the market with best online solutions</p>
+                 <div className={styles.beba}>
+                    <DoneOutlineIcon className={styles.ic} style={{fontSize:70}} />
+                  <h6 className={styles.hea}>Step 5</h6>
+                  <h6 className={styles.he}>Launch</h6>
+                  <p className={styles.text}>After approval by the client, the project is then launched.</p>
                 </div>
             </Carousel>
             </div>

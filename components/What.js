@@ -8,7 +8,10 @@ import "aos/dist/aos.css";
 import WebIcon from '@material-ui/icons/Web';
 import ComputerIcon from '@material-ui/icons/Computer';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
-
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt';
+import AppsIcon from '@material-ui/icons/Apps';
+import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly';
 function What() {
     
     return (
@@ -20,15 +23,15 @@ function What() {
           <div className={styles.what}>
           <div className={styles.left}>
 <h2>Check Out Our Services!</h2>
-<p className={styles.first}>Lets begin your Online Journey</p>
-<p className={styles.rest}>At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work</p>
+<p className={styles.first}>Lets begin your Tech Journey</p>
+<p className={styles.rest}>At M-Grinders Technologies LTD, we offer tech solutions to our clients.We make it easier for our clients to manage their businesses.We offer services to organisations,institutions,companies and individuals.</p>
 <div className={styles.cs}>
 <div className={styles.card}>
 
 <WebIcon className={styles.icc}/>
 
 <div className={styles.cont}>
-<h6>Web Design</h6>
+<h6>Web Development</h6>
 <p>
 At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
 </p>
@@ -36,10 +39,10 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
 </div>
 <div className={styles.card}>
 
-<WebIcon className={styles.icc}/>
+<PhoneAndroidIcon className={styles.icc}/>
 
 <div className={styles.cont}>
-<h6>Web Design</h6>
+<h6>App Development</h6>
 <p>
 At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
 </p>
@@ -47,10 +50,10 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
 </div>
 <div className={styles.card}>
 
-<WebIcon className={styles.icc}/>
+<SystemUpdateAltIcon className={styles.icc}/>
 
 <div className={styles.cont}>
-<h6>Web Design</h6>
+<h6>Management Systems</h6>
 <p>
 At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
 </p>
@@ -58,12 +61,12 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
 </div>
 <div className={styles.card}>
 
-<WebIcon className={styles.icc}/>
+<AppsIcon className={styles.icc}/>
 
 <div className={styles.cont}>
-<h6>Web Design</h6>
+<h6>IOT Projects</h6>
 <p>
-At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
+Iot is an upcoming industry and it really helps in automating our daily activities.We offer IOT services at affordable prices.
 </p>
 </div>
 </div>
@@ -71,11 +74,11 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
           <div className={styles.right}>
           <div className={styles.ccd}>
 <ComputerIcon className={styles.ccc}  style={{ fontSize: 70 }}/>
-<h2>Digital Marketing Agency</h2>
+<h2>Computer Solutions</h2>
           </div>
 <div className={styles.cc}>
-<CameraAltIcon className={styles.ccc}  style={{ fontSize: 70 }}/>
-<h2>Photography and Video</h2>
+<MobileFriendlyIcon className={styles.ccc}  style={{ fontSize: 70 }}/>
+<h2>Mobile Solutions</h2>
           </div>
           </div>
           </div>

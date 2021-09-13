@@ -20,44 +20,45 @@ function Company() {
           <div className={styles.ff}>
 <div className={styles.left}>
 <h2>We Are MGrinders Tech Solutions.</h2>
-<h6>Your Internet Presence, Our Priority</h6>
+<h6>Your Business, Our Priority</h6>
 <p>
-Oracom offers outstanding Web Design in Kenya – We are the best Web Design company in Kenya, Canada and Belgium. From Website Builders, Software & Mobile App Development. We stand out in the local and international market to be the best provider of Web Solutions with over 6 Years experience. Always guided by Creative Teams of Web Developers working in both day and night shift arrangement.
+M-Grinders Technologies LTD was started in 2021 to offer the best tech solutions to businesses and individuals in Kenya and across.
 <br/>
-We are fully charged with the responsibility of developing Quality, Affordable, Effective, Efficient and Reliable Web Solutions to our ever growing wide category of clients. For Web Design in Kenya, Contact Us The best Web Desin Company in Kenya
+We are focused on bringing innovative ideas that make it easier for our clients to run their Businesses.Our team of creative developers work 24 hours in a day to ensure that they deliver quality work.Our Clients satisfaction is our main goal and we endeavour to deliver that daily.
 </p>
 </div>
 <div className={styles.right}>
 <div className={styles.pos}>
 <h1>01.</h1>
-<h6>Best Online Solutions</h6>
+<h6>Best Tech Solutions</h6>
 <p>
-Working with parastatals, Large Companies and SMEs to individuals to produce top notch web solutions
+We have worked with organisations,large companies and start-ups where we have delivered quality work which makes us to continue growing daily.
 </p>
 
 </div>
 
 <div className={styles.pos}>
 <h1>02.</h1>
-<h6>Best Online Solutions</h6>
+<h6>Creativity</h6>
 <p>
-Working with parastatals, Large Companies and SMEs to individuals to produce top notch web solutions
+We have a team of highly creative developers that help in designing and developing projects for our Clients
 </p>
 
 </div>
 <div className={styles.pos}>
 <h1>03.</h1>
-<h6>Best Online Solutions</h6>
+<h6>Research And Innovation</h6>
 <p>
-Working with parastatals, Large Companies and SMEs to individuals to produce top notch web solutions
+We do research on upcoming Technologies which makes us come up with innovative ideas.
 </p>
 
 </div>
 <div className={styles.pos}>
 <h1>04.</h1>
-<h6>Best Online Solutions</h6>
+<h6>Passion & Hardwork</h6>
 <p>
-Working with parastatals, Large Companies and SMEs to individuals to produce top notch web solutions
+We are driven by Passion and Hardwork  which makes us burn the midnight oil to deliver quality work.
+
 </p>
 
 </div>
