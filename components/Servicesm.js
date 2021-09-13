@@ -1,6 +1,9 @@
 import styles from '../styles/Servicesm.module.css';
 import ob from '../public/webdevelopment.jpg'
 import sisi from '../public/sisi.png'
+import man from '../public/man.jpg'
+import io from '../public/io.jpg'
+import aa from '../public/aa.jpg'
 import Image from 'next/image';
 import  { useEffect,useState } from "react";
 import AOS from 'aos';
@@ -82,67 +85,48 @@ offering the following services</h6>
 <h3 >Web Development</h3>
 <h6>We offer affordable web development services</h6>
 <Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
-<p>If you are looking for a top web design company in Nairobi, Kenya then we are pleased to inform you that your search has come to an end.
+<p> 
+We do not just develop a website!<br/>
+We mind about your presence in the internet.
+Therefore ,we build SEO friendly websites to make sure that your business is easily seen on the internet.Our websites are also responsive so they can be viewed on any device while still maintaining the best design.
+We also use the latest technologies like ReactJs, NodeJs, Firebase etc to ensure that our sites load easily and at high speeds.
 
-Mine Softwares is a web design company in Nairobi, Kenya that offers custom web design services and helps businesses project the right image on the web.
-
-If you are just starting out, we will take you through the process of registering a domain name for your business or organization, setting up your personalized corporate emails, getting you a brand identity which involves logo design , letterheads and business cards. This ensures that by the time we have finished designing your website, you are ready to do business.
-
-The website that we will design for you will be easily be opened by any device from a desktop computer, laptop, tab to the most basic phone. By the way, did you know that over 75% of internet visitors in Kenya and across the world visit the internet using their mobile phones?
-
-Our websites are usually fully optimized and rank highly on search engines like Google. This will help you increase sales as many customers needing your products and services are out there Googling. You are missing out big time if you are not on Google. We cannot emphasize more on the importance of being on Google. Picture this, there is someone out there looking for your products or services on Google and they happen to land on your website. Your job will just be to convert them. This is pretty easy compared to you hawking your products or services to people who’ve gone so socialize on social media.
-
-Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
+</p>
 </div>}
 
 {App && <div className={styles.ss} data-aos="fade-up-right">
 <h3>App Development</h3>
 <h6>We offer affordable App development services</h6>
-<Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
-<p>If you are looking for a top web design company in Nairobi, Kenya then we are pleased to inform you that your search has come to an end.
+<Image src={aa} alt="what we do" className={styles.ime}  width={600} height={300} />
+<p>
+ Mobile App Development is a fast growing field which motivates us to keep working hard to deliver the best applications to our clients.<br/>
+ We ensure tat our applications ave the best UI (User Interface) design so as to givr our clients customers the best first impression.Our apps are easy to use and have a very high performance.
+ We use the latest technologies like Kotlin and Flutter to develop competitive applications.
 
-Mine Softwares is a web design company in Nairobi, Kenya that offers custom web design services and helps businesses project the right image on the web.
 
-If you are just starting out, we will take you through the process of registering a domain name for your business or organization, setting up your personalized corporate emails, getting you a brand identity which involves logo design , letterheads and business cards. This ensures that by the time we have finished designing your website, you are ready to do business.
-
-The website that we will design for you will be easily be opened by any device from a desktop computer, laptop, tab to the most basic phone. By the way, did you know that over 75% of internet visitors in Kenya and across the world visit the internet using their mobile phones?
-
-Our websites are usually fully optimized and rank highly on search engines like Google. This will help you increase sales as many customers needing your products and services are out there Googling. You are missing out big time if you are not on Google. We cannot emphasize more on the importance of being on Google. Picture this, there is someone out there looking for your products or services on Google and they happen to land on your website. Your job will just be to convert them. This is pretty easy compared to you hawking your products or services to people who’ve gone so socialize on social media.
-
-Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
+</p>
 </div>}
 
 {Man && <div className={styles.ss} data-aos="fade-up-right">
-<h3  >App Development</h3>
-<h6>We offer affordable App development services</h6>
-<Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
-<p>If you are looking for a top web design company in Nairobi, Kenya then we are pleased to inform you that your search has come to an end.
+<h3  >Management Systems</h3>
+<h6>We offer affordable Management Systems</h6>
+<Image src={man} alt="what we do" className={styles.ime}  width={600} height={300} />
+<p> 
+In the modern day and age , management systems are important in running organisations , institutions , established companies and startups.We create inventories for your organisation, student portals for your institution, workers management system for your company.We store your data in secure databases and back it up in the cloud to ensure that the data is never lost or misused .
+<br/>
+We also install an admin dashboard for our clients to make it easy for the to control the management system.
 
-Mine Softwares is a web design company in Nairobi, Kenya that offers custom web design services and helps businesses project the right image on the web.
-
-If you are just starting out, we will take you through the process of registering a domain name for your business or organization, setting up your personalized corporate emails, getting you a brand identity which involves logo design , letterheads and business cards. This ensures that by the time we have finished designing your website, you are ready to do business.
-
-The website that we will design for you will be easily be opened by any device from a desktop computer, laptop, tab to the most basic phone. By the way, did you know that over 75% of internet visitors in Kenya and across the world visit the internet using their mobile phones?
-
-Our websites are usually fully optimized and rank highly on search engines like Google. This will help you increase sales as many customers needing your products and services are out there Googling. You are missing out big time if you are not on Google. We cannot emphasize more on the importance of being on Google. Picture this, there is someone out there looking for your products or services on Google and they happen to land on your website. Your job will just be to convert them. This is pretty easy compared to you hawking your products or services to people who’ve gone so socialize on social media.
-
-Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
+</p>
 </div>}
 {Iot && <div className={styles.ss} data-aos="fade-up-right">
-<h3>App Development</h3>
-<h6>We offer affordable App development services</h6>
-<Image src={ob} alt="what we do" className={styles.ime}  width={600} height={300} />
-<p>If you are looking for a top web design company in Nairobi, Kenya then we are pleased to inform you that your search has come to an end.
+<h3>IOT Projects</h3>
+<h6>We do IOT Projects at affordable prices.</h6>
+<Image src={io} alt="what we do" className={styles.ime}  width={600} height={300} />
+<p>
+IOT is an upcoming field and we are keen at observing the new trends in the field.
+We use microprocessors like arduino Mega, arduino Uno and raspberry PI to prototype our projects before installing the for our clients.
 
-Mine Softwares is a web design company in Nairobi, Kenya that offers custom web design services and helps businesses project the right image on the web.
-
-If you are just starting out, we will take you through the process of registering a domain name for your business or organization, setting up your personalized corporate emails, getting you a brand identity which involves logo design , letterheads and business cards. This ensures that by the time we have finished designing your website, you are ready to do business.
-
-The website that we will design for you will be easily be opened by any device from a desktop computer, laptop, tab to the most basic phone. By the way, did you know that over 75% of internet visitors in Kenya and across the world visit the internet using their mobile phones?
-
-Our websites are usually fully optimized and rank highly on search engines like Google. This will help you increase sales as many customers needing your products and services are out there Googling. You are missing out big time if you are not on Google. We cannot emphasize more on the importance of being on Google. Picture this, there is someone out there looking for your products or services on Google and they happen to land on your website. Your job will just be to convert them. This is pretty easy compared to you hawking your products or services to people who’ve gone so socialize on social media.
-
-Being on Google is important but Social media is equally important. It comes in handy especially when web visitors are happy with a product or service that you offer and they want to share it with their friends or simply want to leave a comment or review. Some clients also prefer inboxing you on Facebook or tweeting you whenever they need support. Some would want to see more of your product photos on Instagram while others would prefer ordering your products or services through WhatsApp. It is for this reason that the websites we design are Social Media friendly.</p>
+</p>
 </div>}
         </div>
         </>

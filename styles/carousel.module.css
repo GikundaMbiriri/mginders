@@ -7,20 +7,18 @@
 	 position: absolute;
 	  top: 200px;
 	 width: 100vw;
-	
-	
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
 	 margin: auto;
 	  color: white;
 z-index: 2;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+
 }
-.tt h2{
+.tt h1{
 	color: #FBB269;
 }
 .tt h5{
-	color: black;
+	color: #FBB269;
 }
 .ccm{
 	height: 100vh;

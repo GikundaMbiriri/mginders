@@ -19,11 +19,11 @@ function Footer() {
           <div className="col-xs-6 col-md-3">
             <h6>Our solutions</h6>
             <ul className={styles.footerlinks}>
-              <li>Web And Mobile App Development</li>
+              <li>Web  Development</li>
+              <li>App Development</li>
               <li>IOT Projects</li>
-              <li>Web Design</li>
-              <li>Data Analysis</li>
-              <li>Coding Classes</li>
+              <li>Management Systems</li>
+         
              
             </ul>
           </div>
@@ -32,10 +32,10 @@ function Footer() {
             <h6>Quick Links</h6>
             <ul className={styles.footerlinks}>
               <li> <Link href="/"><a>Home</a></Link></li>
-             <li> <Link href="/about"><a>About</a></Link></li>
-             <li>   <Link href="/"><a>Services</a></Link></li>
+             <li> <Link href="/aboutm"><a>About</a></Link></li>
+             <li>   <Link href="/servicesm"><a>Services</a></Link></li>
            
-              <li><Link href="/"><a>Coding Solutions</a></Link></li>
+              <li><Link href="/contact-us"><a>Contact us</a></Link></li>
             
             </ul>
           </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .banner{
 	height: 60vh;
 	width:100vw;
@@ -69,16 +70,23 @@ cursor: pointer;
 	color: #F26722;
 	text-align: center;
 }
+.ss p{
+	font-weight: 500;
+}
+
 .ime{
 	object-fit: cover;
+margin: auto;
 }
 @media (max-width: 800px){
 	.bt{
 		width: 40vw;
 		margin-bottom: 10px;
+		padding: 4px;
 	}
 	.active{
 		width: 40vw;
 		margin-bottom: 10px;
+		padding: 4px;
 	}
 }

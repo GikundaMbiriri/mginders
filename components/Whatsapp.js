@@ -13,7 +13,7 @@ function Whatsapp() {
     return (
         <>
           <ReactWhatsapp number="+254713799975" message="Hello,Who are mgrinders" >
-     <WhatsAppIcon className={styles.whatsapp} style={{fontSize:70}}/>
+     <WhatsAppIcon className={styles.whatsapp} style={{fontSize:40}}/>
      </ReactWhatsapp>
         </>
     )

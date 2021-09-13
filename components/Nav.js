@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 
-import gh from '../public/log.jpg'
+import gh from '../public/sa.jpg'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';

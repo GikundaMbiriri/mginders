@@ -60,7 +60,7 @@ function Home() {
       <Testimonial/>
 
        {/* <Contact/> */}
-       <Whatsapp/>
+     
      <Footer/>
 
      

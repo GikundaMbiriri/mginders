@@ -33,7 +33,10 @@ function What() {
 <div className={styles.cont}>
 <h6>Web Development</h6>
 <p>
-At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
+
+ We design amazing websites for our clients.Our websites are SEO friendly to give our clients a strong online presence.<br/>
+           We use the latest technologies to make our websites responsive and load at lightning speeds.
+
 </p>
 </div>
 </div>
@@ -44,7 +47,9 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
 <div className={styles.cont}>
 <h6>App Development</h6>
 <p>
-At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
+We develop user-friendly applications for institutions,organisations ,ecommerce enterprises etc at affordable prices.<br/>
+            Our applications come with secure admin dashboards to help the owners manage their businesses easily.
+          
 </p>
 </div>
 </div>
@@ -55,7 +60,8 @@ At Oracom Web Solutions, we are totally internet business-focused, so we know ho
 <div className={styles.cont}>
 <h6>Management Systems</h6>
 <p>
-At Oracom Web Solutions, we are totally internet business-focused, so we know how important your web and online presence and performance is to your organisation, whether it’s commercial or not-for-profit or SME or a starter company or an individual’s work
+We develop management systems used in schools ,hospitals and other businesses to facilitate their daily activities.<br/>
+We also help our clients store their data in secure databases and back it up in the cloud.
 </p>
 </div>
 </div>

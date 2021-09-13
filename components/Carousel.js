@@ -28,8 +28,8 @@ function Carouse() {
         <Image src={sisi} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='120'/>
       
-         <div className={styles.tt}><h2>Web Development</h2>
-<h5>We deliver first and responsive websites on time</h5>
+         <div className={styles.tt}><h1>Web Development</h1>
+      <h5>Get first and responsive sites.</h5>
          </div>
          
        </div>
@@ -38,21 +38,24 @@ function Carouse() {
         <Image src={io} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='120'/>
        
-         <div className={styles.tt}>We are the best</div>
+         <div className={styles.tt}> <h1>IOT Projects</h1>
+      <h5>We design IOT Solutions for our clients</h5></div>
        </div>
        <div className={styles.carrier}>
 
         <Image src={man} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='120'/>
        
-         <div className={styles.tt}>We are the best</div>
+         <div className={styles.tt}><h1>Management Systems</h1>
+      <h5>Get a Management System for your business</h5></div>
        </div>
           <div className={styles.carrier}>
 
         <Image src={aa} alt="kdjdj dj" className={styles.im} layout="responsive" priority="true" 
        objectFit="cover" width='100vw' height='120'/>
        
-         <div className={styles.tt}>We are the best</div>
+         <div className={styles.tt}>    <h1>Mobile Development</h1>
+      <h5>Get well-designed mobile apps</h5></div>
        </div>
  </Carousel>
       

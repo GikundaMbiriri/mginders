@@ -42,8 +42,8 @@ function Car() {
        objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>
-         <h1>Mobile Development</h1>
-      <h5>Get well-designed mobile apps</h5>
+ <h1>IOT Projects</h1>
+      <h5>We design IOT Solutions for our clients</h5>
       </div>
        </div>
        <div className={styles.carrier}>
@@ -62,8 +62,9 @@ function Car() {
        objectFit="cover" width='100vw' height='70vh'/>
        
          <div className={styles.tt}>
-<h1>IOT Projects</h1>
-      <h5>We design IOT Solutions for our clients</h5>
+            <h1>Mobile Development</h1>
+      <h5>Get well-designed mobile apps</h5>
+
          </div>
        </div>
  </Carousel>
