@@ -52,8 +52,8 @@ function Footer() {
 
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className={styles.socialicons}>
-              <li><a className={styles.facebook} href="#"><FacebookIcon/></a></li>
-              <li><a className= {styles.twitter}  href="#"><TwitterIcon/></a></li>
+              <li><Link href="https://web.facebook.com/MGrinders-104271638672243"><a className={styles.facebook} href="#"><FacebookIcon/></a></Link></li>
+              <li><Link href="https://twitter.com/mbiriri_gikunda"><a className= {styles.twitter}  href="#"><TwitterIcon/></a></Link></li>
               <li><a className= {styles.dribbble}  href="#"><InstagramIcon/></a></li>
               <li><a className= {styles.linkedin}  href="#"><LinkedIn/></a></li>   
             </ul>
