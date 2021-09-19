@@ -1,6 +1,15 @@
 
+import  { useState } from "react";
+import { useRouter } from 'next/router'
 
 function Cont() {
+  const [info,setInfo]=useState("");
+  const history = useRouter();
+  function handleClick(){
+    setInfo("good");
+    history.push("/");
+
+  }
     return (
         <div className="cx">
             <div id="container">
@@ -13,7 +22,7 @@ function Cont() {
       <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
     </svg>
   </div>
-  <form action="/" method="post" id="contact_form" className="ff">
+  <form  id="contact_form" className="ff">
     <div className="name">
       <label htmlFor="name"></label>
       <input type="text" placeholder="My name is" name="name" id="name_input" className="inpu" required/>
@@ -40,7 +49,7 @@ function Cont() {
       <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" className="textare" required></textarea>
     </div>
     <div className="submit">
-      <input type="submit" value="Send Message" id="form_button" className="inpu" />
+      <input onClick={handleClick} value="Send Message" onChage={e=>setInfo(e.value)} id="form_button" className="inpu" />
     </div>
   </form>
 </div>
