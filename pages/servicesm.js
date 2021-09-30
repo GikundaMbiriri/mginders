@@ -11,9 +11,14 @@ import Footer from '../components/Footer'
 import Ban from '../components/Ban';
 import Servicesm from '../components/Servicesm'
 
+
 function servicesm() {
     return (
         <>
+           <Head>
+        <title>Mgrinders our services </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <Nav/>
        <Servicesm/>
         <Footer/>
